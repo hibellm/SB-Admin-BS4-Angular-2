@@ -14,7 +14,7 @@ export class ChartComponent implements OnInit {
 		        type: 'area'
 		    },
 		    title: {
-		        text: 'Historic and Estimated Worldwide Population Distribution by Region'
+		        text: 'Users logged on by Region'
 		    },
 		    subtitle: {
 		        text: 'Source: Wikipedia.org'
