@@ -7,6 +7,7 @@ import { ModalModule } from 'ng2-bootstrap/ng2-bootstrap';
 import { HomeModule } from './home/home.module';
 import { ChartModule } from './charts/chart.module';
 import { BlankPageModule } from './blank-page/blankPage.module';
+import { TeradataModule } from './teradata/teradata.module';
 import { TableModule } from './tables/table.module';
 import { FormModule } from './forms/forms.module';
 import { GridModule } from './grid/grid.module';
@@ -22,17 +23,18 @@ import {SidebarComponent} from '../shared/index';
 @NgModule({
     imports: [
         CommonModule,
-    	RouterModule,
-    	DropdownModule,
+        RouterModule,
+        DropdownModule,
         ModalModule,
-    	HomeModule,
+        HomeModule,
         ChartModule,
         TableModule,
         FormModule,
         GridModule,
-    	BSComponentModule,
+        BSComponentModule,
         BSElementModule,
-        BlankPageModule
+        BlankPageModule,
+        TeradataModule
     ],
     declarations: [DashboardComponent, TopNavComponent, SidebarComponent],
     exports: [DashboardComponent, TopNavComponent, SidebarComponent]

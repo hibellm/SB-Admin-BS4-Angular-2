@@ -1,0 +1,25 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="16">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="512" startPos="695" endPos="695" selMode="0" lang="JavaScript" encoding="-1" filename="E:\mjh-proj\app\app-routing.module.ts" backupFilePath="" originalFileLastModifTimestamp="1483215702" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="648" startPos="858" endPos="858" selMode="0" lang="HTML" encoding="-1" filename="E:\mjh-proj\index.html" backupFilePath="" originalFileLastModifTimestamp="1483206278" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1178" startPos="456" endPos="456" selMode="0" lang="JavaScript" encoding="-1" filename="E:\mjh-proj\app\app.component.ts" backupFilePath="" originalFileLastModifTimestamp="1483215577" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="448" startPos="135" endPos="292" selMode="0" lang="JavaScript" encoding="-1" filename="E:\mjh-proj\app\dashboard.component.ts" backupFilePath="" originalFileLastModifTimestamp="1483215908" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="752" startPos="385" endPos="385" selMode="0" lang="HTML" encoding="-1" filename="E:\mjh-proj\app\dashboard.component.html" backupFilePath="" originalFileLastModifTimestamp="1483305567" />
+            <File firstVisibleLine="32" xOffset="0" scrollWidth="328" startPos="605" endPos="605" selMode="0" lang="CSS" encoding="-1" filename="E:\mjh-proj\app\dashboard.component.css" backupFilePath="" originalFileLastModifTimestamp="1483305638" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="352" startPos="0" endPos="0" selMode="0" lang="CSS" encoding="-1" filename="E:\mjh-proj\styles.css" backupFilePath="" originalFileLastModifTimestamp="1483206294" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="336" startPos="0" endPos="0" selMode="0" lang="JSON" encoding="-1" filename="E:\mjh-proj\tsconfig.json" backupFilePath="" originalFileLastModifTimestamp="1483128048" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="496" startPos="443" endPos="443" selMode="0" lang="JavaScript" encoding="-1" filename="E:\mjh-proj\app\app.module.ts" backupFilePath="" originalFileLastModifTimestamp="1483215607" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="600" startPos="0" endPos="0" selMode="0" lang="JavaScript" encoding="-1" filename="E:\mjh-proj\app\main.ts" backupFilePath="" originalFileLastModifTimestamp="1483205650" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="616" startPos="202" endPos="202" selMode="0" lang="JavaScript" encoding="-1" filename="E:\mjh-proj\app\hero-detail.component.ts" backupFilePath="" originalFileLastModifTimestamp="1483215619" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="592" startPos="927" endPos="927" selMode="0" lang="JavaScript" encoding="-1" filename="E:\SB-Admin-BS4-Angular-2\src\client\app\dashboard\dashboard.module.ts" backupFilePath="" originalFileLastModifTimestamp="1483828547" />
+            <File firstVisibleLine="341" xOffset="0" scrollWidth="1976" startPos="15721" endPos="15721" selMode="0" lang="HTML" encoding="-1" filename="E:\SB-Admin-BS4-Angular-2\src\client\app\dashboard\bs-component\bs-component.component.html" backupFilePath="" originalFileLastModifTimestamp="1483828547" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="856" startPos="454" endPos="454" selMode="0" lang="JavaScript" encoding="-1" filename="E:\SB-Admin-BS4-Angular-2\src\client\app\dashboard\bs-component\bsComponent.component.ts" backupFilePath="" originalFileLastModifTimestamp="1483828547" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="567" startPos="344" endPos="344" selMode="0" lang="JavaScript" encoding="-1" filename="E:\SB-Admin-BS4-Angular-2\src\client\app\dashboard\bs-component\bsComponent.module.ts" backupFilePath="" originalFileLastModifTimestamp="1483879247" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="592" startPos="170" endPos="170" selMode="0" lang="HTML" encoding="-1" filename="E:\SB-Admin-BS4-Angular-2\src\client\app\dashboard\dashboard.component.html" backupFilePath="" originalFileLastModifTimestamp="1483828547" />
+            <File firstVisibleLine="22" xOffset="0" scrollWidth="2120" startPos="1136" endPos="1136" selMode="0" lang="HTML" encoding="-1" filename="E:\SB-Admin-BS4-Angular-2\src\client\app\dashboard\home\home.component.html" backupFilePath="" originalFileLastModifTimestamp="1483883786" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="952" startPos="107" endPos="127" selMode="0" lang="HTML" encoding="-1" filename="E:\SB-Admin-BS4-Angular-2\src\client\app\login\login.component.html" backupFilePath="" originalFileLastModifTimestamp="1483835700" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

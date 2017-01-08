@@ -31,7 +31,7 @@ import { BSComponentComponent } from './bsComponent.component';
 		ProgressbarModule,
 		RatingModule,
 		TabsModule,
-		TooltipModule,
+		TooltipModule,   
 		ModalModule,
 		TypeaheadModule
 	],

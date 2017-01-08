@@ -41,7 +41,7 @@ export class HomeComponent {
 		`assets/img/moz1.jpg`,
 		`assets/img/warrior1.jpg`,
 		`assets/img/villa.jpg`,
-		`assets/img/slide1.jpg`
+		`assets/img/slider1.jpg`
 	];
 	/* END */
 	/* Alert component */
