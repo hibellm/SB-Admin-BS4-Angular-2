@@ -38,10 +38,10 @@ export class HomeComponent {
 	index: number = 0;
 	slides: Array<any> = [];
 	imgUrl: Array<any> = [
-		`assets/img/slider1.jpg`,
-		`assets/img/slider2.jpg`,
-		`assets/img/slider3.jpg`,
-		`assets/img/slider0.jpg`
+		`assets/img/moz1.jpg`,
+		`assets/img/warrior1.jpg`,
+		`assets/img/villa.jpg`,
+		`assets/img/slide1.jpg`
 	];
 	/* END */
 	/* Alert component */
@@ -55,6 +55,11 @@ export class HomeComponent {
 	     msg: 'Well done! You successfully read this important alert message.',
 	     closable: true
 	   }
+	   {
+	     type: 'warning',
+	     msg: 'this is testing the alerts.',
+	     closable: true
+	   }	   
 	 ];
 
 	 public closeAlert(i:number):void {
@@ -73,7 +78,7 @@ export class HomeComponent {
 		let i = this.slides.length;
 		this.slides.push({
 			image: this.imgUrl[i],
-			text: `${['Dummy ', 'Dummy ', 'Dummy ', 'Dummy '][this.slides.length % 4]}
+			text: `${['Warror', 'Assassin ', 'Fire ', 'Dummy '][this.slides.length % 4]}
       			${['text 0', 'text 1', 'text 2', 'text 3'][this.slides.length % 4]}`
 		});
 	}
