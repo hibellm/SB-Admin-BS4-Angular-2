@@ -54,7 +54,7 @@ export class HomeComponent {
 	     type: 'success',
 	     msg: 'Well done! You successfully read this important alert message.',
 	     closable: true
-	   }
+	   },
 	   {
 	     type: 'warning',
 	     msg: 'this is testing the alerts.',
