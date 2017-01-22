@@ -3,7 +3,6 @@
 // Copy settings from this file into the provided `_custom.scss` to override
 // the Bootstrap defaults without modifying key, versioned files.
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600);
-@import url(http://fonts.googleapis.com/css?family=Roboto:300italic,400italic,600italic,400,300,600);
 //
 // Table of Contents
 //
@@ -86,8 +85,8 @@ $border-width:               1px !default;
 //
 // Settings for the `<body>` element.
 
-$body-bg:                    $gray-dark !default;
-$body-color:                 $gray-light !default;
+$body-bg:                    $gray-light !default;
+$body-color:                 $gray-dark !default;
 
 
 // Links
@@ -143,7 +142,7 @@ $grid-gutter-width:          1.875rem !default; // 30px
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:     'Roboto',"Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:     "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-serif:          "Open Sans", Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:      Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:           $font-family-sans-serif !default;

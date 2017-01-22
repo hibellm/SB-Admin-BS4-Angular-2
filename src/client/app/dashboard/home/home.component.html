@@ -1,87 +1,111 @@
 <script src="node_modules/tether/dist/js/tether.min.js"></script>
 <script src="node_modules/traceur/src/bootstrap.js"></script>
 
+
 <script>
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip(); 
 });
 </script>
-
+<style>
+.block{
+   position: relative;
+    z-index: -1; 
+}
+.video-block{
+    height: 300px;
+    overflow: hidden;    
+}
+video{
+    height: auto;
+    margin-top: -50px;
+    width: 100%;
+    z-index: -1;
+}
+.text{
+    color: red;
+    border: 1px solid red;
+}
+.header-info{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    //text-align: center;
+}
+</style>
 
 <div class="container-fluid">
-    <h2 class="text-muted">Teradata Dashboard <small>Statistics Overview</small></h2>
-	
-  
-  <div class="row">
-  <div class="col-lg-1"></div>
-  <div class="col-lg-5"><span class="label label-success">Success Label</span>  
+    <h2 class="text-muted">Teradata Dashboard<small> Statistics Overview</small></h2>
+
+ <div class="row">
+  <div class="col-lg-12">
+    <div class="video-block block">
+      <video src="http://player.vimeo.com/external/85569724.sd.mp4?s=43df5df0d733011263687d20a47557e4" autoplay muted loop ></video>
+    </div>
   </div>
-  <div class="col-lg-1"></div>
-  <div class="col-lg-5"><a href="#" data-toggle="tooltip">
-  <span class="label label-success">Success Label</span></a></div>
+ </div>	
   
  <div class="row">
+ 
+ <div class="row row-eq-height">
  <div class="col-sm-1 col-md-1"></div>
  <div class="col-sm-10 col-md-10">
  <div class="col-sm-4 col-md-4">
-    <div class="img-thumbnail">
-      <img src="assets/img/gitkraken.png" alt="...">
+    <div class="text-lg-center">
+	  <i class="fa fa-fw fa-5x fa-github"></i>
       <div class="caption">
-        <h3>GitKraken for the Win!</h3>
-        <p>Within the MDH we use GitKraken to push and pull code to the Github repoistories.</p>
-        <p>If interested in trying out the tool, download a free version.</p>
-        <p><a href="https://www.gitkraken.com/download" class="btn btn-primary" role="button" target="_blank">download a free version</a></p>
+        <h3>GitHub</h3>
+        <p>Within the MDH we use GitHub (along with GitKraken) to push and pull code to the repoistories.</p>
+        <p><a href="https://www.gitkraken.com/download" class="btn btn-primary" role="button" target="_blank">Roche Github</a></p>
       </div>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
-    <div class="img-thumbnail">
-      <img class="img-fluid" src="assets/img/gitkraken.png" alt="...">
+    <div class="text-lg-center">
+      <i class="fa fa-fw fa-5x fa-graduation-cap"></i>
       <div class="caption">
-        <h3>GitKraken for the Win!</h3>
-        <p>Within the MDH we use GitKraken to push and pull code to the Github repoistories.</p>
-        <p>If interested in trying out the tool, download a free version.</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+        <h3>Training</h3>
+        <p>About Teradata, SQL or the data sources, all training found here</p>
+        <p><a href="#" class="btn btn-primary-outline" role="button">>>visit</a></p>
       </div>
     </div>
   </div>
    <div class="col-sm-4 col-md-4">
-    <div class="img-thumbnail img-fluid">
-      <img src="assets/img/gitkraken.png" alt="...">
+    <div class="text-lg-center">
+      <i class="fa fa-fw fa-5x fa-database"></i>
       <div class="caption">
-        <h3>GitKraken for the Win!</h3>
-        <p>Within the MDH we use GitKraken to push and pull code to the Github repoistories.</p>
-        <p>If interested in trying out the tool, download a free version.</p>
+        <h3>Data Sources</h3>
+        <p>Real World Data Sources available on Teradata</p>
         <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
       </div>
     </div>
-  </div>
+	</div>
   </div> 
  <div class="col-sm-1 col-md-1"></div>  
 </div> 
   
-  
-  
-  
   <hr>
    
-	<!--Picture slider-->
-        <div class="col-md-12">
-            <carousel [interval]="myInterval" [noWrap]="noWrapSlides">
-                <slide *ngFor="let slidez of slides;let index=index" [active]="slidez.active">
-                    <img [src]="slidez.image">
-                    <div class="carousel-caption">
-                        <h4>Slide {{index}}</h4>
-                        <p>{{slidez.text}}</p>
-                    </div>
-                </slide>
-                <i class="fa fa-chevron-left left carousel-control"></i>
-                <i class="fa fa-chevron-right right carousel-control"></i>
-            </carousel>
-        </div>
+  <!--Picture slider-->
+  <div class="row">	
+   <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <carousel [interval]="myInterval" [noWrap]="noWrapSlides">
+            <slide *ngFor="let slidez of slides;let index=index" [active]="slidez.active">
+                <img [src]="slidez.image">
+                <div class="carousel-caption">
+                    <h4>Slide {{index}}</h4>
+                    <p>{{slidez.text}}</p>
+                </div>
+            </slide>
+            <i class="fa fa-chevron-left left carousel-control"></i>
+            <i class="fa fa-chevron-right right carousel-control"></i>
+        </carousel>
     </div>
+ </div>
+	
     <hr>
-    <div class="row">
+    <div class="row row-eq-height">
         <div class="col-xl-3 col-lg-6">
             <div class="card card-primary card-inverse">
                 <div class="card-header card-primary">
