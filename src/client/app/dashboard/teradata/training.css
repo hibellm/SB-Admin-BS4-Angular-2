@@ -1,0 +1,6577 @@
+.course-cat__header__bg {
+  background-color: #3265cc;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#525967), to(#312d43));
+  background-image: -webkit-linear-gradient(top left, #525967, #312d43);
+  background-image: linear-gradient(to bottom right, #9499a2, #23544d);
+}
+
+.course-cat__header__bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: skew(0, -4deg);
+  -ms-transform: skew(0, -4deg);
+  transform: skew(0, -4deg);
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  overflow: hidden;
+}
+
+.course-cat__title {
+  font-size: 44px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1;
+  color: white;
+}
+
+.course-cat__description {
+  max-width: 40%;
+  font-size: 16px;
+  margin: 30px 0 0 0;
+  line-height: 1.5;
+  color: #676d77;
+}
+
+.course-cat__subtitle {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  margin-top: 0;
+  color: #a6aab1;
+}
+
+h1,
+.alpha,
+h2,
+.beta,
+h3,
+.gamma,
+h4,
+.delta,
+h5,
+.epsilon,
+h6,
+.zeta {
+  font-weight: 300;
+  position: relative;
+  letter-spacing: 0px
+}
+
+h1,
+.alpha {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 48px;
+  margin: 0 0 20px;
+  font-weight: 400
+}
+
+h2,
+.beta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+  font-size: 28px
+}
+
+h3,
+.gamma {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+  font-size: 18px
+}
+
+h4,
+.delta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+  font-size: 16px
+}
+
+h5,
+.epsilon {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+  font-size: 14px
+}
+
+h6,
+.zeta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+  font-size: 12px
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+body {
+  font: 400 16px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+  color: #545e6f
+}
+
+a {
+  text-decoration: none
+}
+
+.wrapper {
+  max-width: 840px;/* was 1180*/
+  width: 94%;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative
+}
+
+.wrapper:after {
+  clear: both;
+  display: table;
+  content: ""
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0
+}
+
+progress {
+  vertical-align: baseline
+}
+
+template,
+[hidden] {
+  display: none
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects
+}
+
+a:active,
+a:hover {
+  outline-width: 0
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted
+}
+
+b,
+strong {
+  font-weight: inherit
+}
+
+b,
+strong {
+  font-weight: bolder
+}
+
+dfn {
+  font-style: italic
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0
+}
+
+mark {
+  background-color: #ff0;
+  color: #000
+}
+
+small {
+  font-size: 80%
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
+sub {
+  bottom: -0.25em
+}
+
+sup {
+  top: -0.5em
+}
+
+img {
+  border-style: none
+}
+
+svg:not(:root) {
+  overflow: hidden
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em
+}
+
+figure {
+  margin: 1em 40px
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  margin: 0
+}
+
+optgroup {
+  font-weight: bold
+}
+
+button,
+input {
+  overflow: visible
+}
+
+button,
+select {
+  text-transform: none
+}
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal
+}
+
+textarea {
+  overflow: auto
+}
+
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px
+}
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit
+}
+
+main {
+  display: block
+}
+
+.page {
+  margin: 0
+}
+
+.page__header {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 100px
+}
+
+.page__header>.wrapper {
+  position: relative;
+  z-index: 1
+}
+
+.page__header__bg {
+  position: absolute;
+  overflow: hidden;
+  top: -100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: skew(0, 2deg);
+  -ms-transform: skew(0, 2deg);
+  transform: skew(0, 2deg);
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  background-color: #9D62C7;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#9D62C7), to(#855cc7));
+  background-image: -webkit-linear-gradient(top left, #9D62C7, #855cc7);
+  background-image: linear-gradient(to bottom right, #9D62C7, #855cc7)
+}
+
+.page__header__bg .wrapper {
+  position: relative
+}
+
+.page__header__bg__logo {
+  width: 320px;
+  height: 320px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transform: skew(0, -2deg);
+  -ms-transform: skew(0, -2deg);
+  transform: skew(0, -2deg);
+  opacity: 0.1;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: 0;
+  background-image: url(/assets/img/icons/ua.png)
+}
+
+.svg .page__header__bg__logo {
+  background-image: url(/assets/img/icons/ua.svg)
+}
+
+@media only screen and (max-width: 1140px) {
+  .page__header__bg__logo {
+    margin-top: 20px
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .page__header__bg__logo {
+    margin-top: 40px
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .page__header__bg__logo {
+    position: static
+  }
+}
+
+.page__header__content {
+  padding: 60px 0 80px 0
+}
+
+.page__header__action {
+  display: block;
+  position: absolute;
+  right: 5px;
+  top: 100%;
+  margin-top: -20px;
+  color: #fff;
+  text-align: left;
+  padding: 20px 30px 22px 80px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+  background-color: #9f72e6;
+  background-repeat: no-repeat;
+  background-position: center right 34px;
+  background-size: 7px;
+  background-image: url(/assets/img/icons/arrow-right--white.png)
+}
+
+@media only screen and (max-width: 540px) {
+  .page__header__action {
+    left: 0;
+    position: relative;
+    top: 0;
+    margin-bottom: -60px
+  }
+}
+
+.svg .page__header__action {
+  background-image: url(/assets/img/icons/arrow-right--white.svg)
+}
+
+.page__header__action__icon {
+  position: absolute;
+  max-width: 50px;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  margin-top: -20px;
+  left: 24px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/assets/img/icons/faq.png)
+}
+
+.svg .page__header__action__icon {
+  background-image: url(/assets/img/icons/faq.svg)
+}
+
+.ua-faqs .page__header__action__icon {
+  background-image: url(/assets/img/icons/action-button--courses.png)
+}
+
+.svg .ua-faqs .page__header__action__icon {
+  background-image: url(/assets/img/icons/action-button--courses.svg)
+}
+
+.page__header__action__content {
+  padding: 0 50px 0 0
+}
+
+.page__header__action__title {
+  margin: 0 0 2px 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 500
+}
+
+.page__header__action__copy {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9)
+}
+
+.page__header__action:hover {
+  -webkit-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  transform: translateY(-4px)
+}
+
+.page__content {
+  padding: 90px 0
+}
+
+.page__title {
+  text-align: left;
+  margin: 0
+}
+
+@media only screen and (max-width: 540px) {
+  .page__title {
+    font-size: 24px
+  }
+}
+
+.page__subtitle {
+  text-align: left;
+  font-size: 19px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  margin: 0;
+  color: #e3c8ff
+}
+
+@media only screen and (max-width: 540px) {
+  .page__subtitle {
+    font-size: 16px
+  }
+}
+
+.page__wrapper {
+  max-width: 690px;
+  margin: 180px auto;
+  padding: 0 20px
+}
+
+@media only screen and (max-width: 640px) {
+  .page__wrapper {
+    margin: 120px auto 100px auto
+  }
+}
+
+.page__wrapper h2 {
+  color: #9d5fc7;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+@media only screen and (max-width: 640px) {
+  .page__wrapper h2 {
+    font-size: 20px
+  }
+}
+
+.page__wrapper h3 {
+  text-align: center;
+  padding: 18px 14px;
+  background-color: #f0f3f8;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #9d5fc7
+}
+
+@media only screen and (max-width: 640px) {
+  .page__wrapper h3 {
+    padding: 20px 24px
+  }
+}
+
+.page__wrapper h4 {
+  color: #9d5fc7;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+.page__wrapper ol {
+  margin-top: 20px
+}
+
+.page__wrapper ol li {
+  margin-bottom: 20px
+}
+
+.page__wrapper ul {
+  margin: 0;
+  padding-left: 20px
+}
+
+.page__wrapper li {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #6a7588
+}
+
+.page__wrapper li p {
+  margin-bottom: 30px;
+  margin-top: 10px
+}
+
+.page__wrapper p {
+  color: #6a7588;
+  margin-bottom: 60px;
+  line-height: 1.7
+}
+
+@media only screen and (max-width: 640px) {
+  .page__wrapper p {
+    font-size: 14px;
+    margin-bottom: 40px
+  }
+}
+
+.page__wrapper code {
+  color: #9d5fc7;
+  font-weight: 500;
+  display: inline-block;
+  background-color: #f0f3f8;
+  padding: 1px 10px 0px 10px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 15px
+}
+
+@media only screen and (max-width: 640px) {
+  .page__wrapper code {
+    font-size: 14px
+  }
+}
+
+.page__wrapper a {
+  color: #894fb0;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+.page__wrapper a:hover {
+  color: #7b479e
+}
+
+.course__preorder-tag {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px 20px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  position: relative;
+  top: -8px;
+  margin: 0 0 10px
+}
+
+.course-single__section {
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 20px
+}
+
+.course-single__section:first-child {
+  margin-top: 0
+}
+
+.course-single__section h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 22px;
+  font-weight: 400;
+  color: #9D5FC7;
+  margin: 25px 0
+}
+
+.course-single__section h3:first-child {
+  margin-top: 0
+}
+
+.course-single__content {
+  max-width: 100%
+}
+
+.course-single__content p {
+  color: #3a4250;
+  font-size: 15px
+}
+
+.course-single__content p a {
+  color: #9D5FC7
+}
+
+.course__single {
+  background-color: #15181d;
+  color: white
+}
+
+.course__content {
+  float: left;
+  width: 75%;
+  padding: 20px 60px 80px 0;
+  background-color: #15181d
+}
+
+@media only screen and (max-width: 990px) {
+  .course__content {
+    width: 70%;
+    padding: 0 40px 60px 0
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .course__content {
+    float: none;
+    width: 100%;
+    padding: 20px 0
+  }
+}
+
+.course__copy h3 {
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px
+}
+
+@media only screen and (max-width: 800px) {
+  .course__copy h3 {
+    margin-top: 40px;
+    font-size: 20px
+  }
+  .course__copy h3:first-child {
+    margin-top: 10px
+  }
+}
+
+.course__copy p {
+  line-height: 1.7;
+  font-size: 16px;
+  color: #e8ebf0
+}
+
+@media only screen and (max-width: 800px) {
+  .course__copy p {
+    font-size: 14px
+  }
+}
+
+.course__copy a {
+  color: #9d62c8;
+  -webkit-transition: color .3s;
+  transition: color .3s
+}
+
+.course__copy a:hover {
+  color: #a975cf
+}
+
+.course__lessons {
+  border: 1px solid #dce5f2;
+  -webkit-box-shadow: 0 1px 4px rgba(53, 60, 72, 0.1);
+  box-shadow: 0 1px 4px rgba(53, 60, 72, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
+
+@media only screen and (max-width: 600px) {
+  .course__lessons {
+    margin-bottom: 40px
+  }
+}
+
+.course__lessons__title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 22px;
+  font-weight: 400;
+  color: #9D5FC7;
+  margin: 25px 0
+}
+
+.course__group {
+  background-color: #2d313a
+}
+
+.course__group:after {
+  clear: both;
+  display: table;
+  content: ""
+}
+
+@media only screen and (max-width: 800px) {
+  .course__group {
+    background-color: transparent
+  }
+}
+
+.course__bundles:after {
+  clear: both;
+  display: table;
+  content: ""
+}
+
+.course__bundle {
+  display: block;
+  margin-top: 30px;
+  overflow: hidden;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #2a3039;
+  background-color: #1d2026;
+  color: white;
+  position: relative
+}
+
+.course__bundle:after {
+  clear: both;
+  display: table;
+  content: ""
+}
+
+@media only screen and (max-width: 800px) {
+  .course__bundle__container {
+    float: left;
+    width: 50%;
+    margin-bottom: 40px
+  }
+  .course__bundle__container:nth-child(2n-1) {
+    padding-right: 15px
+  }
+  .course__bundle__container:nth-child(2n) {
+    padding-left: 15px
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .course__bundle__container {
+    float: none;
+    width: 100%
+  }
+  .course__bundle__container:nth-child(2n-1) {
+    padding-right: 0
+  }
+  .course__bundle__container:nth-child(2n) {
+    padding-left: 0
+  }
+}
+
+.course__bundle__box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 70%;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat
+}
+
+@media only screen and (max-width: 1040px) {
+  .course__bundle__box {
+    right: 60%
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .course__bundle__box {
+    position: static;
+    float: none;
+    background: none!important
+  }
+}
+
+.course__bundle__box__img {
+  max-width: 100%
+}
+
+@media only screen and (min-width: 931px) {
+  .course__bundle__box__img {
+    display: none
+  }
+}
+
+.course__bundle__info {
+  float: left;
+  width: 70%;
+  position: relative;
+  left: 30%;
+  padding: 30px
+}
+
+@media only screen and (max-width: 1040px) {
+  .course__bundle__info {
+    width: 60%;
+    left: 40%
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .course__bundle__info {
+    float: none;
+    left: 0;
+    width: 100%
+  }
+}
+
+.course__bundle__title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500
+}
+
+.course__bundle__description {
+  margin: 14px 0 10px 0;
+  font-size: 14px;
+  line-height: 1.5
+}
+
+.course__bundle__action {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 14px;
+  background-color: #9d62c8;
+  padding: 6px 18px 8px 18px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px
+}
+
+.course__bundle__arrow {
+  background-image: url(/assets/img/icons/arrow-right--white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 10px;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: 5px
+}
+
+.svg .course__bundle__arrow {
+  background-image: url(/assets/img/icons/arrow-right--white.svg)
+}
+
+.course__sidebar {
+  float: right;
+  width: 25%;
+  padding: 40px
+}
+
+@media only screen and (max-width: 990px) {
+  .course__sidebar {
+    width: 30%
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .course__sidebar {
+    padding: 40px 20px
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .course__sidebar {
+    float: none;
+    width: 100%;
+    padding-top: 0
+  }
+}
+
+.course__sidebar__title {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 20px 0
+}
+
+.course__sidebar__profile {
+  padding: 0 30px
+}
+
+.course__sidebar__profile img {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  max-width: 100%
+}
+
+@media only screen and (max-width: 800px) {
+  .course__sidebar__profile {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto
+  }
+}
+
+.course__sidebar__instructor {
+  color: white;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: center
+}
+
+.course__sidebar__bio {
+  color: #e4e8f2;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 20px;
+  text-align: center
+}
+
+.course__sidebar__bio a {
+  color: #9d62c8;
+  -webkit-transition: color .3s;
+  transition: color .3s
+}
+
+.course__sidebar__bio a:hover {
+  color: #a975cf
+}
+
+.lesson__group {
+  margin-bottom: -1px
+}
+
+.lesson__group__title {
+  color: #34425a;
+  padding: 20px;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 500
+}
+
+@media only screen and (max-width: 500px) {
+  .lesson__group__title {
+    padding: 14px 14px;
+    font-size: 15px
+  }
+}
+
+.lesson__list {
+  margin: 0;
+  padding: 0
+}
+
+.lesson__single {
+  list-style: none;
+  border-bottom: 1px solid #dce5f2
+}
+
+.lesson__single:first-child {
+  border-top: 1px solid #dce5f2
+}
+
+.lesson__single__title {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis
+}
+
+.lesson__single__title span {
+  background: #eef4fb;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin: 0 15px 0 0
+}
+
+@media only screen and (max-width: 500px) {
+  .lesson__single__title span {
+    display: none
+  }
+}
+
+.lesson__single__link {
+  position: relative;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #6a7589;
+  font-size: 15px;
+  background: #f8fbff;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  padding: 17px 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+@media only screen and (max-width: 500px) {
+  .lesson__single__link {
+    padding: 18px 10px 18px 14px;
+    font-size: 14px
+  }
+}
+
+.lesson__single__icon {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/assets/img/icons/lesson--play-button.png);
+  width: 16px;
+  height: 16px;
+  margin: 0 10px 0 0;
+  position: relative;
+  top: 2px
+}
+
+.svg .lesson__single__icon {
+  background-image: url(/assets/img/icons/lesson--play-button.svg)
+}
+
+.lesson__single__icon--file {
+  background-image: url(/assets/img/icons/lesson--file.png)
+}
+
+.svg .lesson__single__icon--file {
+  background-image: url(/assets/img/icons/lesson--file.svg)
+}
+
+.lesson__single__button {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  text-align: center;
+  color: #34425a;
+  padding: 11px 26px 10px 26px;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  font-size: 13px;
+  font-weight: 400
+}
+
+.lesson__single__button--start {
+  background-color: #eef4fb
+}
+
+.lesson__single:hover .lesson__single__button--start {
+  background-color: #d9e7f6
+}
+
+@media only screen and (max-width: 500px) {
+  .lesson__single__button--start {
+    display: none
+  }
+}
+
+.lesson__single__button--preview {
+  color: #fff!important;
+  background-color: #9d62c8
+}
+
+.lesson__single:hover .lesson__single__button--preview {
+  background-color: #a975cf
+}
+
+.help {
+  background-color: #f8f9fd
+}
+
+.help__header {
+  padding: 35px 0;
+  text-align: center;
+  color: #fff;
+  background-color: #15181d;
+  background-image: url(/assets/img/hero.svg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 100px
+}
+
+.help__single {
+  padding-bottom: 60px;
+  margin-top: -70px
+}
+
+.help__content {
+  background-color: white;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 68px 60px 40px 60px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px
+}
+
+@media only screen and (max-width: 740px) {
+  .help__content {
+    padding: 48px 40px 20px 40px
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .help__content {
+    padding: 34px 30px 10px 30px
+  }
+}
+
+.help__content a {
+  color: #9d62c8
+}
+
+.help__content h2 {
+  letter-spacing: -0.5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 14px
+}
+
+@media only screen and (max-width: 540px) {
+  .help__content h2 {
+    font-size: 16px
+  }
+}
+
+.help__content p {
+  margin: 0 0 60px 0;
+  line-height: 1.5
+}
+
+@media only screen and (max-width: 740px) {
+  .help__content p {
+    font-size: 14px;
+    margin: 0 0 40px 0
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .help__content p {
+    margin: 0 0 30px 0
+  }
+}
+
+.help__content p+ul,
+.help__content p+ol {
+  margin-top: -40px
+}
+
+.help__content ol,
+.help__content ul {
+  margin: 0 0 60px 0;
+  padding-left: 18px
+}
+
+@media only screen and (max-width: 740px) {
+  .help__content ol,
+  .help__content ul {
+    margin: 0 0 40px 0
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .help__content ol,
+  .help__content ul {
+    margin: 0 0 30px 0
+  }
+}
+
+.help__content ol+ul,
+.help__content ol+ol,
+.help__content ul+ul,
+.help__content ul+ol {
+  margin-top: -40px
+}
+
+.help__content ol p,
+.help__content ul p {
+  margin-bottom: 20px
+}
+
+.help__content li {
+  margin-top: 20px
+}
+
+.help__content li>h2,
+.help__content li>h4 {
+  letter-spacing: -0.5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 14px
+}
+
+@media only screen and (max-width: 540px) {
+  .help__content li>h2,
+  .help__content li>h4 {
+    font-size: 14px
+  }
+}
+
+.help__content .page__foot {
+  margin: 60px -60px -60px -60px;
+  text-align: center;
+  padding: 60px 0;
+  text-align: center;
+  background-color: #262b33;
+  color: white;
+  -webkit-border-radius: 0 0 2px 2px;
+  border-radius: 0 0 2px 2px;
+  font-size: 18px;
+  font-weight: 700
+}
+
+@media only screen and (max-width: 740px) {
+  .help__content .page__foot {
+    margin: 40px -40px -40px -40px
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .help__content .page__foot {
+    margin: 30px -30px -30px -30px
+  }
+}
+
+.o-card {
+  background-color: #FFFFFF;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #dce5f2;
+  -webkit-box-shadow: 0 1px 4px rgba(53, 60, 72, 0.1);
+  box-shadow: 0 1px 4px rgba(53, 60, 72, 0.1);
+  -webkit-transition: -webkit-box-shadow .3s;
+  transition: -webkit-box-shadow .3s;
+  transition: box-shadow .3s;
+  transition: box-shadow .3s, -webkit-box-shadow .3s
+}
+
+.o-card:hover {
+  -webkit-box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27)
+}
+
+.o-card--is-elevated {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27)
+}
+
+.o-card.o-no-hover:hover {
+  -webkit-box-shadow: 0 1px 4px rgba(53, 60, 72, 0.1)!important;
+  box-shadow: 0 1px 4px rgba(53, 60, 72, 0.1)!important
+}
+
+.o-type__title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  font-size: 20px;
+  color: #9e5bc9;
+  margin-top: 0
+}
+
+.o-type__copy {
+  font-size: 15px;
+  color: #6a7589;
+  line-height: 1.6
+}
+
+.o-type__link {
+  color: #9e5bc9;
+  display: inline-block
+}
+
+.button,
+.button__primary,
+.button__secondary {
+  border: 0;
+  outline: 0;
+  line-height: 1;
+  text-align: center;
+  padding: 12px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block
+}
+
+.button__primary {
+  letter-spacing: -0.5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  background-color: #9d62c8;
+  color: white;
+  -webkit-transition: background-color .3s, -webkit-box-shadow .3s;
+  transition: background-color .3s, -webkit-box-shadow .3s;
+  transition: background-color .3s, box-shadow .3s;
+  transition: background-color .3s, box-shadow .3s, -webkit-box-shadow .3s
+}
+
+.button__primary:hover {
+  background-color: #a46dcc;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2)
+}
+
+.button__secondary {
+  letter-spacing: -0.5px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  -webkit-transition: background-color .3s, -webkit-box-shadow .3s;
+  transition: background-color .3s, -webkit-box-shadow .3s;
+  transition: background-color .3s, box-shadow .3s;
+  transition: background-color .3s, box-shadow .3s, -webkit-box-shadow .3s
+}
+
+.button__secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1)
+}
+
+.button__split {
+  -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fafafc), to(#e8ebf4));
+  background: -webkit-linear-gradient(top, #fafafc, #e8ebf4);
+  background: linear-gradient(to bottom, #fafafc, #e8ebf4);
+  border: 0;
+  text-transform: uppercase;
+  max-width: initial;
+  display: inline-block;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+  color: #855cc7;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s
+}
+
+.button__split:-webkit-any-link {
+  text-decoration: none
+}
+
+.button__split:hover .button__split__arrow {
+  -webkit-transform: translateX(4px);
+  -ms-transform: translateX(4px);
+  transform: translateX(4px)
+}
+
+.button__split__icon {
+  display: inline-block;
+  padding: 33px 36px 34px 36px;
+  vertical-align: middle;
+  background-color: #e8ebf4
+}
+
+@media only screen and (max-width: 670px) {
+  .button__split__icon {
+    padding: 23px 20px 24px 20px
+  }
+}
+
+.button__split__icon.icon--teach {
+  background-image: url(/assets/img/icons/stat--learning.png);
+  background-position: 24px 24px;
+  background-repeat: no-repeat;
+  background-size: 22px
+}
+
+@media only screen and (max-width: 670px) {
+  .button__split__icon.icon--teach {
+    background-position: 10px 17px;
+    background-size: 18px
+  }
+}
+
+.svg .button__split__icon.icon--teach {
+  background-image: url(/assets/img/icons/stat--learning.svg)
+}
+
+.button__split__text {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 24px 40px;
+  margin-left: -4px
+}
+
+@media only screen and (max-width: 670px) {
+  .button__split__text {
+    padding: 14px
+  }
+}
+
+.button__split__arrow {
+  background-image: url(/assets/img/icons/arrow-right--purple.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.8;
+  height: 12px;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: 5px;
+  position: relative;
+  top: 1px;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s
+}
+
+.svg .button__split__arrow {
+  background-image: url(/assets/img/icons/arrow-right--purple.svg)
+}
+
+.hero {
+  position: relative;
+  background-color: #9D62C7;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#9D62C7), to(#855cc7));
+  background-image: -webkit-linear-gradient(top left, #9D62C7, #855cc7);
+  background-image: linear-gradient(to bottom right, #9D62C7, #855cc7)
+}
+
+.hero canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0
+}
+
+.hero__container {
+  height: 700px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+
+@media only screen and (max-width: 820px) {
+  .hero__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: auto
+  }
+}
+
+.hero__content {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-align: left;
+  max-width: 920px;
+  padding: 0 20px
+}
+
+@media only screen and (max-width: 820px) {
+  .hero__content {
+    padding: 50px 0 0;
+    text-align: center
+  }
+}
+
+.hero__info {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-align: right;
+  padding: 35px;
+  margin: 0 0 0 35px;
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-border-radius: 50%;
+  border-radius: 50%
+}
+
+@media only screen and (max-width: 820px) {
+  .hero__info {
+    margin: 35px 0 35px
+  }
+}
+
+.hero__info-img {
+  background: rgba(255, 255, 255, 0.1);
+  max-width: 380px;
+  padding: 35px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%
+}
+
+.hero__info-img img {
+  max-width: 100%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  vertical-align: bottom
+}
+
+.hero__title {
+  color: #fff;
+  font-weight: 400
+}
+
+@media only screen and (max-width: 800px) {
+  .hero__title {
+    font-size: 30px
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hero__title {
+    font-size: 24px
+  }
+}
+
+.hero__subtitle {
+  color: #cbd2e0;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  display: block
+}
+
+@media only screen and (max-width: 800px) {
+  .hero__subtitle {
+    font-size: 14px
+  }
+}
+
+.hero__link {
+  color: #e8ebf4;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  padding: 0 0 1px;
+  border-bottom: 1px dotted #e8ebf4
+}
+
+.hero__link:hover {
+  color: #fff
+}
+
+.hero__strapline {
+  text-transform: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #e8ebf4;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 1.5;
+  max-width: 520px;
+  margin: 0 auto 60px auto;
+  display: inline-block
+}
+
+@media only screen and (max-width: 800px) {
+  .hero__strapline {
+    font-size: 16px
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .hero__strapline {
+    max-width: 360px;
+    font-size: 14px
+  }
+}
+
+.footer {
+  background-color: #3a4250;
+  color: #fff
+}
+
+.footer__support {
+  text-align: center;
+  font-size: 16px;
+  padding: 50px 0;
+  margin: 0 0 50px;
+  border-bottom: 1px solid #404959
+}
+
+.footer__support__copy {
+  margin: 0
+}
+
+.footer__support a {
+  color: #b588d5;
+  -webkit-transition: color .3s;
+  transition: color .3s
+}
+
+.footer__support a:hover {
+  color: #a975cf
+}
+
+.footer__support__slack {
+  text-align: center;
+  margin: 0 0 35px
+}
+
+@media only screen and (max-width: 500px) {
+  .footer__support__slack {
+    margin-bottom: 35px;
+    padding: 25px 0
+  }
+}
+
+.footer__support__slack-logo {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 150px;
+  vertical-align: bottom;
+  background-image: url(/assets/img/slack.png)
+}
+
+.svg .footer__support__slack-logo {
+  background-image: url(/assets/img/slack.svg)
+}
+
+.footer__support__slack a {
+  opacity: 1;
+  display: inline-block;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out
+}
+
+.footer__support__slack a:hover {
+  opacity: .6
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  .footer__support__slack a img[src*=".svg"] {
+    width: 100%
+  }
+}
+
+.footer__about {
+  float: left;
+  width: 25%;
+  padding-right: 40px
+}
+
+@media only screen and (max-width: 740px) {
+  .footer__about {
+    width: 40%
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .footer__about {
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding-right: 0
+  }
+}
+
+.footer__about__logo {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+  width: 180px;
+  max-width: 100%;
+  height: 61px;
+  background-image: url(/assets/img/icons/logo.png)
+}
+
+.svg .footer__about__logo {
+  background-image: url(/assets/img/icons/logo.svg)
+}
+
+.footer__about__copy {
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 280px;
+  margin-top: 30px
+}
+
+@media only screen and (max-width: 640px) {
+  .footer__about__copy {
+    margin: 0 auto;
+    margin-top: 30px
+  }
+}
+
+.footer__about__link {
+  color: #b588d5;
+  -webkit-transition: color .3s;
+  transition: color .3s
+}
+
+.footer__about__link:hover {
+  color: #a975cf
+}
+
+.footer__navigation {
+  float: left;
+  width: 75%
+}
+
+.footer__navigation:after {
+  clear: both;
+  display: table;
+  content: ""
+}
+
+@media only screen and (max-width: 740px) {
+  .footer__navigation {
+    width: 60%
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .footer__navigation {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center
+  }
+}
+
+.footer__links {
+  float: left;
+  width: 25%
+}
+
+@media only screen and (max-width: 840px) {
+  .footer__links {
+    width: 100%;
+    float: none
+  }
+  .footer__links:first-child {
+    width: 100%
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .footer__links {
+    width: 100%
+  }
+}
+
+.footer__links__title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-transform: uppercase
+}
+
+@media only screen and (max-width: 840px) {
+  .footer__links__title {
+    margin-bottom: 10px
+  }
+}
+
+.footer-list {
+  padding-right: 20px
+}
+
+@media only screen and (max-width: 840px) {
+  .footer-list {
+    margin-bottom: 20px
+  }
+  .footer-list:after {
+    clear: both;
+    display: table;
+    content: ""
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .footer-list {
+    padding-right: 0
+  }
+}
+
+.footer-list__link {
+  display: block;
+  color: #cbd2e0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  -webkit-transition: color .3s;
+  transition: color .3s
+}
+
+.footer-list__link:hover {
+  color: #a975cf
+}
+
+@media only screen and (max-width: 840px) {
+  .footer-list__link {
+    float: left;
+    margin-right: 20px
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .footer-list__link {
+    float: none;
+    text-align: center;
+    margin-right: 0
+  }
+}
+
+.subfoot {
+  background-color: #404959;
+  margin-top: 80px;
+  font-size: 14px;
+  padding: 10px 20px;
+  color: #a7afbd
+}
+
+@media only screen and (max-width: 500px) {
+  .subfoot {
+    margin-top: 10px
+  }
+}
+
+.subfoot__copy {
+  text-align: center
+}
+
+.subfoot__copy__highlight {
+  color: white;
+  font-weight: 500
+}
+
+@media only screen and (max-width: 500px) {
+  .subfoot__copy__wrap {
+    display: none
+  }
+}
+
+.header {
+  position: relative;
+  z-index: 100;
+  background-color: white;
+  -webkit-box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27)
+}
+
+.header__row--top {
+  padding: 20px 0;
+  background-color: white;
+  position: relative;
+  z-index: 1
+}
+
+@media only screen and (max-width: 720px) {
+  .header__row--top {
+    padding: 12px 0 5px 0
+  }
+}
+
+.header__row--bottom {
+  background-color: #3a4250
+}
+
+@media only screen and (max-width: 720px) {
+  .header__row--bottom {
+    -webkit-box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+    box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+    padding-top: 60px;
+    -webkit-transform: translate3d(0, -110%, 0);
+    transform: translate3d(0, -110%, 0);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    -webkit-transition: opacity .3s, -webkit-transform .3s cubic-bezier(0.76, 1.59, 0.64, 0.87);
+    transition: opacity .3s, -webkit-transform .3s cubic-bezier(0.76, 1.59, 0.64, 0.87);
+    transition: transform .3s cubic-bezier(0.76, 1.59, 0.64, 0.87), opacity .3s;
+    transition: transform .3s cubic-bezier(0.76, 1.59, 0.64, 0.87), opacity .3s, -webkit-transform .3s cubic-bezier(0.76, 1.59, 0.64, 0.87);
+    opacity: 0
+  }
+  .header__row--bottom .wrapper {
+    padding: 0;
+    width: 100%
+  }
+  .is-expanded .header__row--bottom {
+    -webkit-transform: translate3d(0, -60px, 0);
+    transform: translate3d(0, -60px, 0);
+    opacity: 1
+  }
+}
+
+.header__home {
+  overflow: hidden;
+  text-indent: -160px;
+  display: inline-block;
+  width: 148px;
+  height: 50px
+}
+
+@media only screen and (max-width: 720px) {
+  .header__home {
+    width: 120px;
+    height: 40px
+  }
+}
+
+.header__home__logo {
+  margin-top: -21px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/assets/img/icons/logo--light.png)
+}
+
+.svg .header__home__logo {
+  background-image: url(/assets/img/icons/logo--light.svg)
+}
+
+.header__login {
+  margin-top: 9px
+}
+
+@media only screen and (max-width: 720px) {
+  .header__login {
+    margin-top: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0
+  }
+}
+
+.nav:after {
+  clear: both;
+  display: table;
+  content: ""
+}
+
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 15px;
+  font-weight: 500;
+  color: #dae2ee;
+  -webkit-transition: color .3s, background-color .3s;
+  transition: color .3s, background-color .3s
+}
+
+.nav--primary .nav__link {
+  padding: 14px 0
+}
+
+.nav--primary .nav__link:hover {
+  background-color: #363c48;
+  color: white
+}
+
+.nav__link.is-active {
+  background-color: #363c48;
+  color: white;
+  pointer-events: none
+}
+
+.nav__link.is-active:hover {
+  background-color: #272c35;
+  color: white;
+  cursor: default
+}
+
+.nav__link svg {
+  position: relative;
+  top: 2px;
+  margin-right: 6px
+}
+
+.nav__item {
+  display: block;
+  float: left;
+  text-align: center
+}
+
+.nav--primary .nav__item {
+  width: 25%;
+  border-right: 1px solid #3f4856
+}
+
+.nav--primary .nav__item:first-child {
+  border-left: 1px solid #3f4856
+}
+
+.nav__button {
+  display: block;
+  background-color: #f0f3f8;
+  color: #424651;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  padding: 7px 20px 7px 24px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px
+}
+
+@media only screen and (max-width: 720px) {
+  .nav__button {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background-color: #363c48;
+    color: white
+  }
+}
+
+.nav__button:hover .nav__button__arrow {
+  -webkit-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  transform: translateX(5px)
+}
+
+.nav__button__arrow {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/assets/img/icons/arrow-right--dark.png);
+  height: 12px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: 5px;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s
+}
+
+.svg .nav__button__arrow {
+  background-image: url(/assets/img/icons/arrow-right--dark.svg)
+}
+
+@media only screen and (max-width: 720px) {
+  .nav__button__arrow {
+    background-image: url(/assets/img/icons/arrow-right--white.png)
+  }
+  .svg .nav__button__arrow {
+    background-image: url(/assets/img/icons/arrow-right--white.svg)
+  }
+}
+
+.nav__dropdown {
+  position: relative
+}
+
+.nav__dropdown .nav__link {
+  display: block
+}
+
+.nav__dropdown:hover .subnav {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  opacity: 1
+}
+
+.nav__hamburger {
+  outline: 0;
+  display: none;
+  float: right;
+  z-index: 1;
+  position: relative;
+  padding: 12px 8px 10px 8px;
+  cursor: pointer;
+  -webkit-transition-property: opacity .3s linear;
+  transition-property: opacity .3s linear;
+  font: inherit;
+  color: inherit;
+  top: -2px;
+  left: 9px;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible
+}
+
+@media only screen and (max-width: 720px) {
+  .nav__hamburger {
+    display: inline-block
+  }
+}
+
+.nav__hamburger:hover {
+  opacity: 0.8
+}
+
+.nav__hamburger__box {
+  width: 30px;
+  height: 21px;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s
+}
+
+.is-expanded .nav__hamburger__box {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg)
+}
+
+.nav__hamburger__inner {
+  display: block;
+  top: 50%;
+  margin-top: -1.5px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19)
+}
+
+.nav__hamburger__inner,
+.nav__hamburger__inner::before,
+.nav__hamburger__inner::after {
+  width: 30px;
+  height: 3px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  position: absolute;
+  -webkit-transition: -webkit-transform 0.15s ease;
+  transition: -webkit-transform 0.15s ease;
+  transition: transform 0.15s ease;
+  transition: transform 0.15s ease, -webkit-transform 0.15s ease;
+  background-color: #6a7589
+}
+
+.nav__hamburger__inner::before,
+.nav__hamburger__inner::after {
+  content: "";
+  display: block
+}
+
+.nav__hamburger__inner::before {
+  top: -9px;
+  -webkit-transition: top 0.1s 0.34s ease-in, opacity 0.1s ease-in;
+  transition: top 0.1s 0.34s ease-in, opacity 0.1s ease-in
+}
+
+.nav__hamburger__inner::after {
+  bottom: -9px;
+  -webkit-transition: bottom 0.1s 0.34s ease-in, -webkit-transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: bottom 0.1s 0.34s ease-in, -webkit-transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: bottom 0.1s 0.34s ease-in, transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: bottom 0.1s 0.34s ease-in, transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19)
+}
+
+.is-expanded .nav__hamburger__inner {
+  -webkit-transition-delay: 0.14s;
+  transition-delay: 0.14s;
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+}
+
+.is-expanded .nav__hamburger__inner::before {
+  top: 0;
+  opacity: 0;
+  -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.14s ease-out;
+  transition: top 0.1s ease-out, opacity 0.1s 0.14s ease-out
+}
+
+.is-expanded .nav__hamburger__inner::after {
+  bottom: 0;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transition: bottom 0.1s ease-out, -webkit-transform 0.3s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: bottom 0.1s ease-out, -webkit-transform 0.3s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: bottom 0.1s ease-out, transform 0.3s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: bottom 0.1s ease-out, transform 0.3s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.3s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1)
+}
+
+.nav--secondary {
+  float: right
+}
+
+@media only screen and (max-width: 720px) {
+  .nav--secondary {
+    display: none
+  }
+}
+
+.nav--primary {
+  margin-top: -1px
+}
+
+@media only screen and (max-width: 720px) {
+  .nav--primary .nav__item {
+    float: none;
+    width: 100%;
+    text-align: left;
+    border-right: none
+  }
+  .nav--primary .nav__item:first-child {
+    border-left: none
+  }
+  .nav--primary .nav__link {
+    padding: 20px
+  }
+}
+
+.nav--primary__mobile {
+  display: none
+}
+
+@media only screen and (max-width: 720px) {
+  .nav--primary__mobile {
+    display: block
+  }
+}
+
+.subnav {
+  position: absolute;
+  top: 100%;
+  padding-top: 10px;
+  width: 100%;
+  text-align: left;
+  z-index: -1;
+  -webkit-transform: translate3d(0, -110%, 0);
+  transform: translate3d(0, -110%, 0);
+  opacity: 0;
+  -webkit-transition: opacity .3s, -webkit-transform .3s cubic-bezier(0.76, 1.59, 0.64, 0.87);
+  transition: opacity .3s, -webkit-transform .3s cubic-bezier(0.76, 1.59, 0.64, 0.87);
+  transition: transform .3s cubic-bezier(0.76, 1.59, 0.64, 0.87), opacity .3s;
+  transition: transform .3s cubic-bezier(0.76, 1.59, 0.64, 0.87), opacity .3s, -webkit-transform .3s cubic-bezier(0.76, 1.59, 0.64, 0.87)
+}
+
+@media only screen and (max-width: 720px) {
+  .subnav {
+    display: none
+  }
+}
+
+.subnav__content {
+  background-color: #3a4250;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  position: relative
+}
+
+.subnav__content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  z-index: -1
+}
+
+.subnav__content::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #3a4250;
+  top: -3px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  left: 25%;
+  left: -webkit-calc(50% - 10px);
+  left: calc(50% - 10px);
+  z-index: -1
+}
+
+.subnav__link {
+  border-bottom: 1px solid #383e4a;
+  display: block;
+  color: #d5ddea;
+  text-decoration: none;
+  text-transform: uppercase
+}
+
+.nav--primary .subnav__link {
+  padding: 12px 20px
+}
+
+.subnav__link:last-child {
+  border-bottom: none
+}
+
+.subnav__link__title {
+  padding: 5px 0;
+  display: inline-block;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
+  color: inherit
+}
+
+.subnav__link.nav__link:hover {
+  background-color: #272c35
+}
+
+.subnav__link img {
+  position: relative;
+  margin-right: 14px
+}
+
+.subnav__link.subnav__link--angular-1 img {
+  width: 18px;
+  height: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/assets/img/icons/nav--angular-1.png);
+  top: 4px
+}
+
+.svg .subnav__link.subnav__link--angular-1 img {
+  background-image: url(/assets/img/icons/nav--angular-1.svg)
+}
+
+.subnav__link.subnav__link--angular-2 img {
+  width: 18px;
+  height: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/assets/img/icons/nav--angular-2.png);
+  top: 4px
+}
+
+.svg .subnav__link.subnav__link--angular-2 img {
+  background-image: url(/assets/img/icons/nav--angular-2.svg)
+}
+
+.subnav__link.subnav__link--typescript img {
+  width: 17px;
+  height: 17px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/assets/img/icons/nav--typescript.png);
+  top: 3px
+}
+
+.svg .subnav__link.subnav__link--typescript img {
+  background-image: url(/assets/img/icons/nav--typescript.svg)
+}
+
+.subnav__link__arrow {
+  position: relative;
+  top: 11px;
+  width: 6px;
+  height: 10px;
+  margin-right: 5px;
+  float: right;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/assets/img/icons/arrow-slider--right.png)
+}
+
+.svg .subnav__link__arrow {
+  background-image: url(/assets/img/icons/arrow-slider--right.svg)
+}
+
+.notify {
+  background-color: #9D62C7;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#9D62C7), to(#855cc7));
+  background-image: -webkit-linear-gradient(top left, #9D62C7, #855cc7);
+  background-image: linear-gradient(to bottom right, #9D62C7, #855cc7);
+  color: #fff;
+  text-align: center;
+  padding: 120px 0
+}
+
+@media only screen and (max-width: 800px) {
+  .notify {
+    padding: 80px 0
+  }
+}
+
+.notify__title {
+  margin: 0 0 20px
+}
+
+.notify p {
+  margin-top: 20px;
+  color: #e3c7ff;
+  font-size: 13px
+}
+
+.notify__email {
+  -webkit-appearance: none;
+  background: none;
+  display: inline-block;
+  outline: 0;
+  width: 100%;
+  max-width: 350px;
+  margin: 0;
+  border: 1px solid #a67ed6;
+  color: white;
+  height: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  -webkit-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+  text-align: center;
+  -webkit-box-shadow: none;
+  box-shadow: none
+}
+
+.notify__email::-webkit-input-placeholder {
+  font-weight: 600;
+  line-height: 1.4;
+  color: #fff;
+  font-size: 16px
+}
+
+@media only screen and (max-width: 800px) {
+  .notify__email {
+    display: block;
+    -webkit-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+    margin: 0 auto;
+    max-width: 400px
+  }
+}
+
+.notify__submit {
+  letter-spacing: -0.5px;
+  padding: 16px 0;
+  background: #986dcc;
+  border: 1px solid #a67ed6;
+  border-left-color: transparent;
+  outline: 0;
+  -webkit-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+  max-width: 200px;
+  margin-left: -1px;
+  line-height: 1;
+  font-style: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  -webkit-transition: background .3s;
+  transition: background .3s
+}
+
+.notify__submit:hover {
+  background: #a580d3
+}
+
+@media only screen and (max-width: 800px) {
+  .notify__submit {
+    display: block;
+    -webkit-border-radius: 0 0 2px 2px;
+    border-radius: 0 0 2px 2px;
+    margin: 0 auto;
+    max-width: 400px;
+    border-top: 0;
+    border-left-color: #a67ed6
+  }
+}
+
+.stats {
+  padding: 70px 0 60px 0
+}
+
+@media only screen and (max-width: 740px) {
+  .stats {
+    padding: 5px 0 10px 0
+  }
+}
+
+.stat {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  border-right: 1px dotted #ccc
+}
+
+.stat:after {
+  clear: both;
+  display: table;
+  content: ""
+}
+
+.stat:last-child {
+  border-right: none
+}
+
+@media only screen and (max-width: 740px) {
+  .stat {
+    float: none;
+    width: 100%;
+    border-right: none;
+    padding: 38px 0 30px 0;
+    border-bottom: 1px dotted #ccc
+  }
+  .stat:last-child {
+    border-bottom: none
+  }
+}
+
+.stat__icon {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px
+}
+
+@media only screen and (max-width: 740px) {
+  .stat__icon {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: top
+  }
+}
+
+.stat--learning .stat__icon {
+  width: 90px;
+  height: 80px;
+  background-image: url(/assets/img/icons/stat--learning.png)
+}
+
+.svg .stat--learning .stat__icon {
+  background-image: url(/assets/img/icons/stat--learning.svg)
+}
+
+@media only screen and (max-width: 740px) {
+  .stat--learning .stat__icon {
+    width: 100px
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .stat--learning .stat__icon {
+    height: 60px
+  }
+}
+
+.stat--minutes .stat__icon {
+  width: 87px;
+  height: 80px;
+  background-image: url(/assets/img/icons/stat--minutes.png)
+}
+
+.svg .stat--minutes .stat__icon {
+  background-image: url(/assets/img/icons/stat--minutes.svg)
+}
+
+@media only screen and (max-width: 740px) {
+  .stat--minutes .stat__icon {
+    width: 100px;
+    position: relative;
+    top: -8px
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .stat--minutes .stat__icon {
+    height: 60px
+  }
+}
+
+.stat--lectures .stat__icon {
+  width: 95px;
+  height: 80px;
+  background-image: url(/assets/img/icons/stat--lectures.png)
+}
+
+.svg .stat--lectures .stat__icon {
+  background-image: url(/assets/img/icons/stat--lectures.svg)
+}
+
+@media only screen and (max-width: 740px) {
+  .stat--lectures .stat__icon {
+    width: 100px
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .stat--lectures .stat__icon {
+    height: 60px
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .stat__copy {
+    display: inline-block;
+    text-align: left;
+    margin-left: 20px;
+    width: 200px
+  }
+}
+
+.stat__title {
+  color: #191c22;
+  font-size: 34px;
+  font-weight: 600;
+  margin: 0 0 10px 0
+}
+
+@media only screen and (max-width: 860px) {
+  .stat__title {
+    font-size: 30px
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .stat__title {
+    font-size: 24px;
+    margin: 0 0 4px 0
+  }
+}
+
+.stat__subtitle {
+  color: #5a5f69;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0 0 10px 0
+}
+
+@media only screen and (max-width: 860px) {
+  .stat__subtitle {
+    font-size: 16px
+  }
+}
+
+.brands {
+  padding: 35px 0;
+  background: #3a4250
+}
+
+@media only screen and (max-width: 800px) {
+  .brands {
+    padding: 100px 0
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .brands {
+    padding: 60px 0 40px 0
+  }
+}
+
+.brands__logo {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 120px;
+  max-width: 120px
+}
+
+.brands__logo__wrapper {
+  float: left;
+  width: 25%;
+  height: 120px;
+  text-align: center
+}
+
+@media only screen and (max-width: 950px) {
+  .brands__logo__wrapper {
+    width: 50%
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .brands__logo__wrapper {
+    width: 50%
+  }
+}
+
+.brands__logo--gm {
+  background-image: url(/assets/img/brands/gm.png);
+  max-width: 80px
+}
+
+.svg .brands__logo--gm {
+  background-image: url(/assets/img/brands/gm.svg)
+}
+
+.brands__logo--ga {
+  background-image: url(/assets/img/brands/ga.png);
+  max-width: 86px
+}
+
+.svg .brands__logo--ga {
+  background-image: url(/assets/img/brands/ga.svg)
+}
+
+.brands__logo--google {
+  background-image: url(/assets/img/brands/google.png)
+}
+
+.svg .brands__logo--google {
+  background-image: url(/assets/img/brands/google.svg)
+}
+
+.brands__logo--swiss-post {
+  background-image: url(/assets/img/brands/swiss-post.png);
+  max-width: 180px
+}
+
+.svg .brands__logo--swiss-post {
+  background-image: url(/assets/img/brands/swiss-post.svg)
+}
+
+.brands__logo--rolling-stone {
+  background-image: url(/assets/img/brands/rolling-stone.png);
+  max-width: 180px
+}
+
+.svg .brands__logo--rolling-stone {
+  background-image: url(/assets/img/brands/rolling-stone.svg)
+}
+
+.brands__logo--salesforce {
+  background-image: url(/assets/img/brands/salesforce.png)
+}
+
+.svg .brands__logo--salesforce {
+  background-image: url(/assets/img/brands/salesforce.svg)
+}
+
+.brands__logo--intel {
+  background-image: url(/assets/img/brands/intel.png);
+  background-image: url(/assets/img/brands/intel.png)
+}
+
+.svg .brands__logo--intel {
+  background-image: url(/assets/img/brands/intel.svg)
+}
+
+.brands__logo--virgin {
+  background-image: url(/assets/img/brands/virgin.png)
+}
+
+.svg .brands__logo--virgin {
+  background-image: url(/assets/img/brands/virgin.svg)
+}
+
+.quotes {
+  position: relative;
+  border-top: 1px solid #f1f3f7;
+  background-color: #fff;
+  padding: 100px 0
+}
+
+@media only screen and (max-width: 800px) {
+  .quotes {
+    padding: 80px 0
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .quotes {
+    padding: 60px 0 40px 0
+  }
+}
+
+.quotes__header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px
+}
+
+.quotes__subtitle {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 16px;
+  font-weight: 400
+}
+
+@media only screen and (max-width: 800px) {
+  .quotes__subtitle {
+    font-size: 14px;
+    margin-bottom: 10px
+  }
+}
+
+.promo-banner {
+  color: white;
+  padding: 55px 0;
+  display: block;
+  background-color: #9D62C7;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#9D62C7), to(#855cc7));
+  background-image: -webkit-linear-gradient(top left, #9D62C7, #855cc7);
+  background-image: linear-gradient(to bottom right, #9D62C7, #855cc7)
+}
+
+.promo-banner:after {
+  clear: both;
+  display: table;
+  content: ""
+}
+
+.promo-banner .wrapper {
+  display: table;
+  max-width: 800px
+}
+
+.promo-banner__label {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 6px 12px;
+  margin-bottom: 20px;
+  letter-spacing: 1px
+}
+
+.promo-banner__logo {
+  display: table-cell;
+  vertical-align: top;
+  width: 165px
+}
+
+@media only screen and (max-width: 700px) {
+  .promo-banner__logo {
+    display: block;
+    width: 100%;
+    text-align: center
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .promo-banner__logo {
+    display: none
+  }
+}
+
+.promo-banner__logo img {
+  width: 210px;
+  height: 210px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.05);
+  background-image: url(/assets/img/icons/angular-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px
+}
+
+.svg .promo-banner__logo img {
+  background-image: url(/assets/img/icons/angular-2.svg)
+}
+
+.promo-banner__content {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 60px
+}
+
+@media only screen and (max-width: 700px) {
+  .promo-banner__content {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 40px
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .promo-banner__content {
+    padding-top: 0
+  }
+}
+
+.promo-banner__content p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-top: 0
+}
+
+.promo-banner__title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 5px
+}
+
+.promo-banner__button {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  line-height: 1;
+  display: inline-block;
+  padding: 13px 36px 14px 36px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.04)
+}
+
+.bucket:hover .promo-banner__button {
+  background-color: rgba(255, 255, 255, 0.3)
+}
+
+@media only screen and (max-width: 640px) {
+  .promo-banner__button {
+    padding: 13px 0 14px 0;
+    width: 100%
+  }
+}
+
+.promo-banner__arrow {
+  background-image: url(/assets/img/icons/arrow-right--white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 10px;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: 5px
+}
+
+.svg .promo-banner__arrow {
+  background-image: url(/assets/img/icons/arrow-right--white.svg)
+}
+
+.about__award {
+  margin: 0 0 25px;
+  padding: 25px 0;
+  max-width: 80%
+}
+
+@media only screen and (max-width: 870px) {
+  .about__award {
+    margin: 0 auto 25px
+  }
+}
+
+.about__award img {
+  border: 1px solid #e8ebf4;
+  border-bottom-color: #d2d2dc
+}
+
+.about__training img {
+  -webkit-border-radius: 3px;
+  border-radius: 3px
+}
+
+.about__header {
+  background-color: #FFFFFF;
+  padding: 80px 0
+}
+
+.about__header:after {
+  clear: both;
+  display: table;
+  content: ""
+}
+
+@media only screen and (max-width: 870px) {
+  .about__header {
+    padding: 20px 0 40px
+  }
+}
+
+.about__header__main {
+  width: auto;
+  overflow: hidden
+}
+
+@media only screen and (max-width: 870px) {
+  .about__header__main {
+    margin-bottom: 0
+  }
+  .about__header__main:first-child {
+    padding-right: 0;
+    padding-bottom: 40px
+  }
+  .about__header__main:last-child {
+    padding-left: 0
+  }
+}
+
+.about__header__aside {
+  float: right;
+  width: 380px
+}
+
+@media only screen and (max-width: 870px) {
+  .about__header__aside {
+    float: none;
+    width: 80%;
+    margin: 0 auto 40px
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .about__header__aside {
+    width: 100%;
+    margin-bottom: 40px
+  }
+  .about__header__aside:nth-child(2n) {
+    padding-left: 0
+  }
+  .about__header__aside:nth-child(2n-1) {
+    padding-right: 0
+  }
+}
+
+.about__header__title {
+  margin-bottom: 15px
+}
+
+@media only screen and (max-width: 1000px) {
+  .about__header__title {
+    margin-top: 10px
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .about__header__title {
+    text-align: center
+  }
+}
+
+.about__header__content {
+  padding: 0 40px 0 0;
+  margin: 0 40px 0 0;
+  border-right: 1px solid #f0f5fc
+}
+
+@media only screen and (max-width: 870px) {
+  .about__header__content {
+    padding: 0;
+    border-right: 0;
+    margin: 0 auto
+  }
+}
+
+.about__header__content img {
+  max-width: 100%;
+  vertical-align: bottom
+}
+
+.about__header__cta {
+  margin-top: 20px
+}
+
+.about__content {
+  border-top: 1px solid #e8ebf4;
+  background-color: #fafafc;
+  padding: 80px 0;
+  text-align: center
+}
+
+.about__content__header {
+  text-align: center
+}
+
+.about__title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #9d5fc7
+}
+
+.about__strapline {
+  color: #3a3f4a;
+  margin-bottom: 60px
+}
+
+.about-card {
+  overflow: hidden;
+  float: right;
+  margin: 0 auto 20px
+}
+
+@media only screen and (max-width: 870px) {
+  .about-card {
+    float: none;
+    display: inline-block
+  }
+}
+
+.about-card__header {
+  -webkit-border-radius: 2px 2px 0 0;
+  border-radius: 2px 2px 0 0;
+  background: #fff;
+  padding: 30px 0 0;
+  text-align: center
+}
+
+.about-card__profile {
+  max-width: 100px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 5px;
+  background: #efefef
+}
+
+.about-card__profile img {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  max-width: 100%;
+  vertical-align: bottom
+}
+
+.about-card__user {
+  text-align: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #e8ebf4
+}
+
+.about-card--collaborator .about-card__user {
+  padding: 0 0 16px
+}
+
+.about-card__name {
+  font-weight: bold;
+  margin-bottom: 2px
+}
+
+.about-card__position {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #734bb2
+}
+
+.about-card__info {
+  background-color: #fafafc;
+  text-align: center;
+  padding: 10px 30px
+}
+
+.about-card__bio {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #6a7588
+}
+
+.about-card__bio a {
+  color: #724ab1
+}
+
+.about-card__social {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0
+}
+
+.about-card__social:after {
+  clear: both;
+  display: table;
+  content: ""
+}
+
+.about-card__social li {
+  display: inline-block
+}
+
+.about-card__social__link {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.about-card__social__link--twitter {
+  background-image: url(/assets/img/icons/twitter.png);
+  margin-right: 10px
+}
+
+.svg .about-card__social__link--twitter {
+  background-image: url(/assets/img/icons/twitter.svg)
+}
+
+.about-card__social__link--github {
+  background-image: url(/assets/img/icons/github.png)
+}
+
+.svg .about-card__social__link--github {
+  background-image: url(/assets/img/icons/github.svg)
+}
+
+.award {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 0 0 25px;
+  padding: 0 0 0 60px;
+  border-left: 1px solid #cdd8e8;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1px
+}
+
+@media only screen and (min-width: 550px) and (max-width: 720px) {
+  .award {
+    margin: 4px 0 0 15px
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .award {
+    display: none
+  }
+}
+
+.award a {
+  color: #7f95b5;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out
+}
+
+.award a:hover {
+  color: #556e93
+}
+
+.award img {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  left: 15px
+}
+
+.award p {
+  margin: 0
+}
+
+.award__title {
+  text-transform: uppercase
+}
+
+.testimonial-list {
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  padding: 80px 0 0 0;
+  margin: 0
+}
+
+@media only screen and (max-width: 980px) {
+  .testimonial-list {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .testimonial-list {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1
+  }
+}
+
+.testimonial-list__bg {
+  background-color: #fafafc
+}
+
+.testimonial-list__featured {
+  border-bottom: 1px solid #ededf8;
+  background-color: white;
+  padding-bottom: 40px
+}
+
+.testimonial-list__featured:after {
+  clear: both;
+  display: table;
+  content: ""
+}
+
+.testimonial-list__featured .testimonial-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap
+}
+
+.testimonial {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 40px;
+  page-break-inside: avoid
+}
+
+.testimonial-list__featured .testimonial {
+  margin-bottom: 0
+}
+
+@media only screen and (max-width: 980px) {
+  .testimonial-list__featured .testimonial {
+    margin-bottom: 40px
+  }
+}
+
+.testimonial__container {
+  padding-bottom: 16px;
+  list-style: none;
+  padding-top: 4px
+}
+
+.testimonial-list__featured .testimonial__container {
+  float: left;
+  width: 33.33%;
+  padding: 0 10px
+}
+
+.testimonial-list__featured .testimonial__container:first-child {
+  padding-left: 0;
+  padding-right: 20px
+}
+
+.testimonial-list__featured .testimonial__container:last-child {
+  padding-left: 20px;
+  padding-right: 0
+}
+
+@media only screen and (max-width: 980px) {
+  .testimonial-list__featured .testimonial__container {
+    width: 50%
+  }
+  .testimonial-list__featured .testimonial__container:first-child {
+    padding-left: 0;
+    padding-right: 0
+  }
+  .testimonial-list__featured .testimonial__container:last-child {
+    padding-left: 0;
+    padding-right: 0
+  }
+  .testimonial-list__featured .testimonial__container:nth-child(2n-1) {
+    padding-left: 0;
+    padding-right: 20px
+  }
+  .testimonial-list__featured .testimonial__container:nth-child(2n) {
+    padding-left: 20px;
+    padding-right: 0
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .testimonial-list__featured .testimonial__container {
+    width: 100%
+  }
+  .testimonial-list__featured .testimonial__container:nth-child(2n-1) {
+    padding-left: 0;
+    padding-right: 0
+  }
+  .testimonial-list__featured .testimonial__container:nth-child(2n) {
+    padding-left: 0;
+    padding-right: 0
+  }
+}
+
+.testimonial__user {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 10px 0 20px 0;
+  color: #68687e
+}
+
+@media only screen and (max-width: 880px) {
+  .testimonial__user {
+    padding: 14px 0 18px 0
+  }
+}
+
+.testimonial__user__name {
+  color: #9d62c8;
+  font-size: 16px;
+  display: block;
+  -webkit-transition: color .3s;
+  transition: color .3s
+}
+
+@media only screen and (max-width: 880px) {
+  .testimonial__user__name {
+    font-size: 14px
+  }
+}
+
+.testimonial__user__name:hover {
+  color: #363c48
+}
+
+.testimonial__user__title {
+  font-weight: 400;
+  margin-top: 4px;
+  display: block;
+  font-size: 13px
+}
+
+.testimonial__img {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  display: inline-block;
+  margin-top: 20px;
+  background: #efefef;
+  padding: 5px
+}
+
+@media only screen and (max-width: 880px) {
+  .testimonial__img {
+    width: 80px;
+    height: 80px
+  }
+}
+
+.testimonial__img span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.testimonial__copy {
+  font-size: 14px;
+  background-color: #fafafc;
+  margin: 0;
+  padding: 20px 24px;
+  border-top: 1px solid #ededf8;
+  color: #6a7588;
+  line-height: 1.5
+}
+
+.testimonial__more {
+  width: 220px;
+  margin: 0 auto;
+  display: block
+}
+
+.testimonial__arrow {
+  background-image: url(/assets/img/icons/arrow-right--white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 10px;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: 5px
+}
+
+.svg .testimonial__arrow {
+  background-image: url(/assets/img/icons/arrow-right--white.svg)
+}
+
+.ua-licensing .page__wrapper h1 {
+  color: #9e61c8;
+  text-align: center
+}
+
+.ua-licensing .page__wrapper h3 {
+  padding: 30px 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  margin: 40px 0
+}
+
+.ua-licensing .page__wrapper h4 {
+  margin-top: 60px;
+  padding-top: 60px;
+  border-top: 1px solid #dce5f2;
+  margin-bottom: 40px;
+  font-size: 22px;
+  text-transform: capitalize
+}
+
+.ua-licensing .page__wrapper h5 {
+  color: #9e61c8;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  border-top: 1px dotted #dce5f2;
+  padding-top: 40px
+}
+
+.ua-licensing .page__wrapper p {
+  margin-bottom: 40px
+}
+
+.ua-licensing .page__wrapper li+li {
+  margin-top: 20px
+}
+
+.ua-licensing .page__wrapper ul {
+  margin-bottom: 40px;
+  margin-top: 0
+}
+
+.course-buckets {
+  padding: 40px 0;
+  position: relative;
+  z-index: 2;
+  background-color: white
+}
+
+@media only screen and (max-width: 960px) {
+  .course-buckets {
+    padding: 60px 0 30px 0
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .course-buckets {
+    padding: 0 0 30px 0
+  }
+}
+
+.course-buckets.is-home {
+  margin-top: 40px
+}
+
+.course-buckets__half {
+  width: 50%;
+  float: left
+}
+
+.course-buckets__half:first-child {
+  padding: 0 20px 55px 0
+}
+
+.course-buckets__half:last-child {
+  padding: 0 0 60px 55px
+}
+
+.course-buckets__half:only-child {
+  padding-left: 0
+}
+
+@media only screen and (max-width: 820px) {
+  .course-buckets__half {
+    float: none;
+    width: 100%
+  }
+  .course-buckets__half:first-child,
+  .course-buckets__half:last-child {
+    padding: 0 0 20px 0
+  }
+}
+
+.course-buckets__boss {
+  background-color: #f7f9fb;
+  padding: 22px 20px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  background-repeat: no-repeat;
+  background-position: center right 20px;
+  background-size: 8px;
+  background-image: url(/assets/img/icons/arrow-slider--right.png)
+}
+
+.svg .course-buckets__boss {
+  background-image: url(/assets/img/icons/arrow-slider--right.svg)
+}
+
+@media only screen and (max-width: 800px) {
+  .course-buckets__boss {
+    padding: 18px 20px
+  }
+}
+
+.course-buckets__boss__icon {
+  max-width: 50px;
+  -webkit-box-flex: 50px;
+  -webkit-flex: 50px 1 0;
+  -ms-flex: 50px 1 0;
+  flex: 50px 1 0;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/assets/img/icons/faq.png);
+  margin-right: 16px
+}
+
+@media only screen and (max-width: 820px) {
+  .course-buckets__boss__icon {
+    display: block
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .course-buckets__boss__icon {
+    display: none
+  }
+}
+
+.svg .course-buckets__boss__icon {
+  background-image: url(/assets/img/icons/faq.svg)
+}
+
+.course-buckets__boss__content {
+  padding-right: 40px
+}
+
+.course-buckets__boss__title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  margin: 0 0 2px 0;
+  color: #9D5CC7
+}
+
+.course-buckets__boss__copy {
+  color: #6a7588;
+  font-size: 14px;
+  margin: 0
+}
+
+.course-buckets__boss:hover {
+  background-color: white
+}
+
+.course-buckets__categories {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap
+}
+
+.course-buckets__card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  -webkit-transition: -webkit-box-shadow .3s;
+  transition: -webkit-box-shadow .3s;
+  transition: box-shadow .3s;
+  transition: box-shadow .3s, -webkit-box-shadow .3s
+}
+
+.course-buckets__card__wrapper {
+  -webkit-box-flex: 33.33%;
+  -webkit-flex: 33.33% 1 0;
+  -ms-flex: 33.33% 1 0;
+  flex: 33.33% 1 0;
+  max-width: 33.33%;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  margin-bottom: 40px
+}
+
+.course-buckets__card__wrapper:nth-child(3n-2) {
+  padding-right: 26px
+}
+
+.course-buckets__card__wrapper:nth-child(3n-1) {
+  padding-left: 14px;
+  padding-right: 14px
+}
+
+.course-buckets__card__wrapper:nth-child(3n) {
+  padding-left: 26px
+}
+
+@media only screen and (max-width: 960px) {
+  .course-buckets__card__wrapper {
+    -webkit-box-flex: 50%;
+    -webkit-flex: 50% 1 0;
+    -ms-flex: 50% 1 0;
+    flex: 50% 1 0;
+    max-width: 50%
+  }
+  .course-buckets__card__wrapper:nth-child(3n-2) {
+    padding: 0
+  }
+  .course-buckets__card__wrapper:nth-child(3n-1) {
+    padding: 0
+  }
+  .course-buckets__card__wrapper:nth-child(3n) {
+    padding: 0
+  }
+  .course-buckets__card__wrapper:nth-child(2n-1) {
+    padding-right: 20px
+  }
+  .course-buckets__card__wrapper:nth-child(2n) {
+    padding-left: 20px
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .course-buckets__card__wrapper {
+    margin-bottom: 20px
+  }
+  .course-buckets__card__wrapper:nth-child(2n-1) {
+    padding-right: 10px
+  }
+  .course-buckets__card__wrapper:nth-child(2n) {
+    padding-left: 10px
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .course-buckets__card__wrapper {
+    -webkit-box-flex: 100%;
+    -webkit-flex: 100% 1 0;
+    -ms-flex: 100% 1 0;
+    flex: 100% 1 0;
+    max-width: 100%
+  }
+  .course-buckets__card__wrapper:nth-child(2n-1) {
+    padding-right: 0
+  }
+  .course-buckets__card__wrapper:nth-child(2n) {
+    padding-left: 0
+  }
+}
+
+.course-buckets__card__header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 20px 0
+}
+
+.course-buckets__card__logo {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px
+}
+
+@media only screen and (max-width: 740px) {
+  .course-buckets__card__logo {
+    width: 30px;
+    height: 30px
+  }
+}
+
+.course-buckets__card__logo.angular-1 {
+  background-image: url(/assets/img/categories/angular-1.png)
+}
+
+.svg .course-buckets__card__logo.angular-1 {
+  background-image: url(/assets/img/categories/angular-1.svg)
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  .ua-courses .course-buckets__card__logo.angular-1 {
+    background-image: url("/assets/img/categories/angular-1.png")
+  }
+}
+
+.course-buckets__card__logo.angular-2 {
+  background-image: url(/assets/img/categories/angular-2.png)
+}
+
+.svg .course-buckets__card__logo.angular-2 {
+  background-image: url(/assets/img/categories/angular-2.svg)
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  .ua-courses .course-buckets__card__logo.angular-2 {
+    background-image: url("/assets/img/categories/angular-2.png")
+  }
+}
+
+.course-buckets__card__logo.typescript {
+  background-image: url(/assets/img/categories/typescript.png)
+}
+
+.svg .course-buckets__card__logo.typescript {
+  background-image: url(/assets/img/categories/typescript.svg)
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  .ua-courses .course-buckets__card__logo.typescript {
+    background-image: url("/assets/img/categories/typescript.png")
+  }
+}
+
+.course-buckets__card__title {
+  color: #3a4250;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px
+}
+
+@media only screen and (max-width: 740px) {
+  .course-buckets__card__title {
+    font-size: 20px;
+    margin-left: 10px
+  }
+}
+
+.course-buckets__card__copy {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0;
+  -ms-flex: 1 1 0;
+  flex: 1 1 0;
+  background-color: #fbfdff;
+  border-top: 1px solid #f0f5fc;
+  color: #6a7588;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 16px 20px;
+  margin: 0;
+  height: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  text-align: center
+}
+
+@media only screen and (max-width: 600px) {
+  .course-buckets__card__copy {
+    display: none
+  }
+}
+
+.course-buckets__card:hover {
+  -webkit-box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27)
+}
+
+.course-bundles {
+  -webkit-box-flex: 340px;
+  -webkit-flex: 340px 1 0;
+  -ms-flex: 340px 1 0;
+  flex: 340px 1 0;
+  max-width: 340px;
+  margin-top: -200px;
+  padding-bottom: 20px;
+  position: relative;
+  z-index: 2
+}
+
+@media only screen and (min-width: 1400px) {
+  .course-bundles {
+    margin-top: -260px
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .course-bundles {
+    -webkit-box-flex: 320px;
+    -webkit-flex: 320px 1 0;
+    -ms-flex: 320px 1 0;
+    flex: 320px 1 0;
+    max-width: 320px
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .course-bundles {
+    -webkit-box-flex: 100%;
+    -webkit-flex: 100% 1 0;
+    -ms-flex: 100% 1 0;
+    flex: 100% 1 0;
+    max-width: none;
+    margin-top: 0
+  }
+}
+
+.course-bundles__card {
+  -webkit-box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  background-color: white;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  margin-bottom: 30px;
+  position: relative
+}
+
+@media only screen and (min-width: 880px) and (max-width: 1060px) {
+  .course-bundles .course-bundles__card {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .course-bundles__card {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #e9edf2
+  }
+}
+
+.course-bundles__tabs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%
+}
+
+.course-bundles__tabs__single {
+  outline: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto 1 0;
+  -ms-flex: auto 1 0;
+  flex: auto 1 0;
+  text-align: center;
+  background: none;
+  border: none;
+  padding: 10px;
+  border-right: 1px solid #dde7f6;
+  border-bottom: 1px solid #dde7f6;
+  background-color: #f8fbff;
+  cursor: pointer
+}
+
+@media only screen and (min-width: 880px) and (max-width: 1060px) {
+  .course-bundles__tabs__single {
+    display: none
+  }
+}
+
+.course-bundles__tabs__single:last-child {
+  border-right: none
+}
+
+.course-bundles__tabs__single[data-bundle-state="active"] {
+  background-color: white;
+  border-bottom: 1px solid #FFFFFF;
+  cursor: default
+}
+
+.course-bundles__tabs__title {
+  display: block;
+  color: #545e6f;
+  font-weight: 500
+}
+
+[data-bundle-state="active"] .course-bundles__tabs__title {
+  color: #9f72e6
+}
+
+.angular-2 [data-bundle-state="active"] .course-bundles__tabs__title {
+  color: #e4435c
+}
+
+.typescript [data-bundle-state="active"] .course-bundles__tabs__title {
+  color: #5f8ed6
+}
+
+.rxjs [data-bundle-state="active"] .course-bundles__tabs__title {
+  color: #e656b5
+}
+
+.course-bundles__tabs__subtitle {
+  display: block;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #6a7589;
+  text-transform: uppercase
+}
+
+.course-bundles__single {
+  display: none;
+  opacity: 0
+}
+
+@media only screen and (min-width: 880px) and (max-width: 1060px) {
+  .course-bundles__single {
+    margin-right: 20px;
+    opacity: 1;
+    -webkit-box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+    box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+    background-color: white;
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 0;
+    -ms-flex: 1 1 0;
+    flex: 1 1 0
+  }
+  .course-bundles__single:last-child {
+    margin-right: 0
+  }
+}
+
+.course-bundles__single[data-bundle-content-state="active"] {
+  opacity: 1;
+  display: block
+}
+
+.course-bundles__header {
+  text-align: center;
+  padding: 24px 20px 30px 20px;
+  position: relative;
+  overflow: hidden;
+  background-color: #9f72e6;
+  -webkit-box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  margin-bottom: 30px
+}
+
+.angular-2 .course-bundles__header {
+  background-color: #292d48
+}
+
+.typescript .course-bundles__header {
+  background-color: #5f8ed6
+}
+
+@media only screen and (max-width: 540px) {
+  .course-bundles__header {
+    margin-bottom: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0
+  }
+}
+
+.course-bundles__logo {
+  display: block;
+  margin: 0 auto;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 14px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/assets/img/icons/bundle.png)
+}
+
+.svg .course-bundles__logo {
+  background-image: url(/assets/img/icons/bundle.svg)
+}
+
+.course-bundles__title {
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  margin: 0 0 8px 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2)
+}
+
+.course-bundles__subtitle {
+  color: #eff1fb;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1)
+}
+
+.course-bundles__sub-header {
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 1px solid #f0f5fc
+}
+
+@media only screen and (max-width: 540px) {
+  .course-bundles__sub-header {
+    display: none
+  }
+}
+
+.course-bundles__sub-header__title {
+  font-size: 22px;
+  font-weight: 400;
+  color: #9D5FC7;
+  margin: 0 0 5px 0
+}
+
+.angular-1 .course-bundles__sub-header__title {
+  color: #3a3f4f
+}
+
+.angular-2 .course-bundles__sub-header__title {
+  color: #e4435c
+}
+
+.typescript .course-bundles__sub-header__title {
+  color: #5f8ed6
+}
+
+.rxjs .course-bundles__sub-header__title {
+  color: #e656b5
+}
+
+.course-bundles__sub-header__subtitle {
+  color: #6a7589;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0
+}
+
+.course-bundles__list {
+  list-style: none;
+  margin: 0;
+  padding: 20px
+}
+
+.course-bundles__item {
+  list-style: none
+}
+
+.course-bundles__item .course-card--condensed:hover {
+  -webkit-box-shadow: 0 1px 2px rgba(53, 60, 72, 0.14);
+  box-shadow: 0 1px 2px rgba(53, 60, 72, 0.14)
+}
+
+.course-bundles__item:last-child .course-bundles__divider {
+  display: none
+}
+
+.course-bundles__divider {
+  text-align: center;
+  display: block;
+  margin: -5px 0 15px 0
+}
+
+.course-bundles__divider__plus {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: -11px;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-image: url(/assets/img/icons/plus.png)
+}
+
+.svg .course-bundles__divider__plus {
+  background-image: url(/assets/img/icons/plus.svg)
+}
+
+.course-bundles__link {
+  display: block;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer
+}
+
+.angular-1 .course-bundles__link:hover .course-bundles__info__text {
+  background-color: #9f72e6
+}
+
+.angular-2 .course-bundles__link:hover .course-bundles__info__text {
+  background-color: #292d48
+}
+
+.typescript .course-bundles__link:hover .course-bundles__info__text {
+  background-color: #4c73ae
+}
+
+.rxjs .course-bundles__link:hover .course-bundles__info__text {
+  background-color: #649de4
+}
+
+.course-bundles__team {
+  border-top: 1px solid #e9edf2
+}
+
+.course-bundles__team__title {
+  text-align: center;
+  padding: 16px 20px;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #6a7589;
+  display: none
+}
+
+.course-bundles__team__tabs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%
+}
+
+.course-bundles__team__tab {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px solid #e9edf2;
+  border-bottom: 1px solid #e9edf2;
+  background-color: #f8fbff;
+  cursor: pointer;
+  outline: 0
+}
+
+.course-bundles__team__tab--single img {
+  width: 10px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url(/assets/img/icons/bundle-single.png);
+  margin-bottom: 4px
+}
+
+.svg .course-bundles__team__tab--single img {
+  background-image: url(/assets/img/icons/bundle-single.svg)
+}
+
+.course-bundles__team__tab--team img {
+  width: 17px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url(/assets/img/icons/bundle-team.png);
+  margin-bottom: 4px
+}
+
+.svg .course-bundles__team__tab--team img {
+  background-image: url(/assets/img/icons/bundle-team.svg)
+}
+
+.course-bundles__team__tab:last-child {
+  border-right: none
+}
+
+.course-bundles__team__tab[data-license-state="active"] {
+  background-color: white;
+  border-bottom: 1px solid #FFFFFF;
+  cursor: default
+}
+
+.course-bundles__team__tab__title {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #6a7589;
+  text-transform: uppercase
+}
+
+.angular-2 [data-license-state="active"] .course-bundles__team__tab__title {
+  color: #e4435c
+}
+
+.typescript [data-license-state="active"] .course-bundles__team__tab__title {
+  color: #5f8ed6
+}
+
+.rxjs [data-license-state="active"] .course-bundles__team__tab__title {
+  color: #e656b5
+}
+
+.course-bundles__pricing {
+  text-align: center;
+  padding: 4px 14px
+}
+
+.course-bundles__pricing input {
+  display: none
+}
+
+.course-bundles__pricing__tab {
+  display: none
+}
+
+.course-bundles__pricing__tab[data-license-content-state="active"] {
+  opacity: 1;
+  display: block
+}
+
+.course-bundles__pricing__single {
+  padding: 24px 0
+}
+
+.course-bundles__pricing__title {
+  text-transform: uppercase;
+  color: #6a7589;
+  display: block;
+  font-size: 12px;
+  font-weight: 500
+}
+
+.course-bundles__pricing__full {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #3e434c;
+  font-style: italic;
+  display: inline-block
+}
+
+.course-bundles__pricing__cost {
+  display: block;
+  font-size: 36px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #9f72e6
+}
+
+.angular-2 .course-bundles__pricing__cost {
+  color: #e4435c
+}
+
+.typescript .course-bundles__pricing__cost {
+  color: #5f8ed6
+}
+
+.rxjs .course-bundles__pricing__cost {
+  color: #e656b5
+}
+
+.course-bundles__pricing__user-icon {
+  width: 14px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url(/assets/img/icons/bundle-team.png);
+  margin-right: 10px;
+  position: relative;
+  top: 3px
+}
+
+.svg .course-bundles__pricing__user-icon {
+  background-image: url(/assets/img/icons/bundle-team.svg)
+}
+
+.course-bundles__pricing__checkbox {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #dde7f6;
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+  background-color: transparent;
+  -webkit-transition: background-color .3s, border-color .3s;
+  transition: background-color .3s, border-color .3s
+}
+
+.course-bundles__pricing__checkbox img {
+  width: 10px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url(/assets/img/icons/bundle-tick.png);
+  top: 1px;
+  position: absolute;
+  left: 2px;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s
+}
+
+.svg .course-bundles__pricing__checkbox img {
+  background-image: url(/assets/img/icons/bundle-tick.svg)
+}
+
+.course-bundles__pricing__bigger {
+  padding: 10px 0
+}
+
+.course-bundles__pricing__bigger p {
+  font-size: 14px;
+  font-style: italic;
+  color: #3e434c
+}
+
+.course-bundles__pricing__bigger p a {
+  color: #9e72e6
+}
+
+.course-bundles__pricing__selector {
+  border-bottom: 1px solid #f0f5fc
+}
+
+.course-bundles__pricing__selector input {
+  display: none
+}
+
+.angular-1 .course-bundles__pricing__selector input:checked+label .course-bundles__pricing__checkbox {
+  background-color: #9e72e6;
+  border-color: #9e72e6
+}
+
+.angular-2 .course-bundles__pricing__selector input:checked+label .course-bundles__pricing__checkbox {
+  background-color: #e4435c;
+  border-color: #e4435c
+}
+
+.typescript .course-bundles__pricing__selector input:checked+label .course-bundles__pricing__checkbox {
+  background-color: #5f8ed6;
+  border-color: #5f8ed6
+}
+
+.rxjs .course-bundles__pricing__selector input:checked+label .course-bundles__pricing__checkbox {
+  background-color: #e656b5;
+  border-color: #e656b5
+}
+
+.course-bundles__pricing__selector input:checked+label .course-bundles__pricing__checkbox img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1)
+}
+
+.course-bundles__pricing__selector label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 14px 14px 14px 4px;
+  cursor: pointer
+}
+
+.course-bundles__pricing__selector:first-child {
+  padding-top: 0
+}
+
+.course-bundles__pricing__selector:last-child {
+  border-bottom: none;
+  padding-bottom: 0
+}
+
+.course-bundles__pricing__selector__team {
+  display: inline-block;
+  vertical-align: middle;
+  color: #3a414c;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+.course-bundles__pricing__selector__cost {
+  font-size: 18px
+}
+
+.angular-1 .course-bundles__pricing__selector__cost {
+  color: #9e72e6
+}
+
+.angular-2 .course-bundles__pricing__selector__cost {
+  color: #e4435c
+}
+
+.typescript .course-bundles__pricing__selector__cost {
+  color: #5f8ed6
+}
+
+.rxjs .course-bundles__pricing__selector__cost {
+  color: #e656b5
+}
+
+.course-bundles__volume {
+  text-align: center;
+  padding: 14px 20px 10px 20px;
+  border-top: 1px solid #f0f5fc;
+  background-color: #fbfdff
+}
+
+.course-bundles__volume__progress {
+  height: 6px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #dde7f6;
+  margin-bottom: 8px
+}
+
+.course-bundles__volume__value {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  height: 6px;
+  width: 50%;
+  background-color: #a97cea;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s
+}
+
+.angular-2 .course-bundles__volume__value {
+  background-color: #e4435c
+}
+
+.typescript .course-bundles__volume__value {
+  background-color: #5f8ed6
+}
+
+.rxjs .course-bundles__volume__value {
+  background-color: #e656b5
+}
+
+.course-bundles__volume__count {
+  text-transform: uppercase;
+  color: #6a7589;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+.course-bundles__info {
+  padding: 14px 20px;
+  border-top: 1px solid #f0f5fc;
+  background-color: #fbfdff
+}
+
+.course-bundles__info__text {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  background-color: #9f72e6;
+  display: block;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 10px;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s
+}
+
+.angular-1 .course-bundles__info__text {
+  background-color: #3a3f4f
+}
+
+.angular-2 .course-bundles__info__text {
+  background-color: #e4435c
+}
+
+.typescript .course-bundles__info__text {
+  background-color: #5f8ed6
+}
+
+.rxjs .course-bundles__info__text {
+  background-color: #e656b5
+}
+
+.course-bundles__license-link {
+  display: block;
+  font-size: 13px;
+  font-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: center;
+  width: 100%;
+  margin-bottom: 14px;
+  color: #878f9e;
+  font-style: italic
+}
+
+.course-bundles__license-link a {
+  color: #9e72e6;
+  -webkit-transition: color .3s;
+  transition: color .3s
+}
+
+.course-bundles__license-link a:hover {
+  color: #3a4250
+}
+
+.course-purchase__card+.course-bundles {
+  margin-top: 30px
+}
+
+.course-card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative
+}
+
+.course-card:hover .course-card__order__text,
+.course-card:hover .course-card__volume__value {
+  background-color: #BB67E1
+}
+
+.course-card:hover .course-card__pricing__price {
+  color: #BB67E1
+}
+
+.course-card:hover.preorder .course-card__order__text,
+.course-card:hover.preorder .course-card__volume__value {
+  background-color: #6d76dc
+}
+
+.course-card:hover.preorder .course-card__pricing__price {
+  color: #6d76dc
+}
+
+.course-card__tag {
+  position: absolute;
+  right: -1px;
+  top: 8px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  background-color: #67d56f;
+  padding: 6px 14px 5px 14px;
+  line-height: 1;
+  -webkit-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px
+}
+
+.course-card__tag.preorder {
+  background-color: #6db0dc
+}
+
+.preorder .course-card__tag {
+  background-color: #6db0dc
+}
+
+.course-card__header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.course-card__logo {
+  -webkit-box-flex: 96px;
+  -webkit-flex: 96px 1 0;
+  -ms-flex: 96px 1 0;
+  flex: 96px 1 0;
+  width: 96px;
+  height: 96px;
+  max-width: 96px;
+  border-right: 1px solid #f0f5fc;
+  padding: 20px
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  .course-card__logo img[src*=".svg"] {
+    width: 100%
+  }
+}
+
+.course-card__logo img[src*=".svg"] {
+  width: 100%\9
+}
+
+.course-card__logo img {
+  max-width: 100%
+}
+
+.course-card__name {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 10px 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+
+.course-card__title {
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
+  color: #545e6f;
+  margin: 0
+}
+
+.course-card__author {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #7f8898
+}
+
+.course-card__pricing {
+  background-color: #fbfdff;
+  border-top: 1px solid #f0f5fc;
+  text-align: center;
+  padding: 14px 20px
+}
+
+.course-card__pricing__label {
+  text-transform: uppercase;
+  color: #6a7589;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  display: block
+}
+
+.course-card__pricing__price {
+  font-size: 26px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #9964dd;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  display: block;
+  margin-top: 3px
+}
+
+.preorder .course-card__pricing__price {
+  color: #6db0dc
+}
+
+.course-card__pricing__discount {
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #3e434c;
+  font-style: italic;
+  display: inline-block
+}
+
+.course-card__volume {
+  text-align: center;
+  padding: 14px 20px 10px 20px;
+  border-top: 1px solid #f0f5fc;
+  background-color: #fbfdff
+}
+
+.course-card__volume__progress {
+  height: 6px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #dde7f6;
+  margin-bottom: 8px
+}
+
+.course-card__volume__value {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  height: 6px;
+  width: 50%;
+  background-color: #a97cea;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s
+}
+
+.preorder .course-card__volume__value {
+  background-color: #6db0dc
+}
+
+.course-card__volume__count {
+  text-transform: uppercase;
+  color: #6a7589;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+.course-card__description {
+  color: #6a7589;
+  font-size: 14px;
+  padding: 15px 20px;
+  border-top: 1px solid #f0f5fc;
+  background-color: #fbfdff;
+  line-height: 1.5;
+  margin: 0
+}
+
+.course-card__metadata {
+  text-align: center;
+  border-top: 1px solid #f0f5fc;
+  background-color: #fbfdff;
+  padding: 14px 20px
+}
+
+.course-card__metadata__user {
+  display: block;
+  color: #6a7589;
+  font-size: 11px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400
+}
+
+.course-card__metadata__user__name {
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 13px
+}
+
+.course-card__metadata__length {
+  margin-top: 6px;
+  display: block;
+  color: #6a7589;
+  font-size: 12px;
+  font-style: italic
+}
+
+.course-card__order {
+  border-top: 1px solid #f0f5fc;
+  background-color: #fbfdff;
+  padding: 10px 14px
+}
+
+.course-card__order__text {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
+  color: white;
+  background-color: #9967dd;
+  display: block;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 10px;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s
+}
+
+.preorder .course-card__order__text {
+  background-color: #6db0dc
+}
+
+.course-card--condensed {
+  -webkit-box-shadow: 0 1px 2px rgba(53, 60, 72, 0.14);
+  box-shadow: 0 1px 2px rgba(53, 60, 72, 0.14)
+}
+
+.course-card--condensed .course-card__logo {
+  -webkit-box-flex: 60px;
+  -webkit-flex: 60px 1 0;
+  -ms-flex: 60px 1 0;
+  flex: 60px 1 0;
+  width: 60px;
+  height: 60px;
+  max-width: 60px;
+  padding: 16px
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  .course-card--condensed .course-card__logo img[src*=".svg"] {
+    width: 100%
+  }
+}
+
+.course-card--condensed .course-card__title {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #545e6f;
+  margin: 0
+}
+
+.course-card--condensed .course-card__author {
+  margin: 0;
+  font-size: 12px;
+  color: #7f8898
+}
+
+.course-card--condensed .course-card__tag {
+  font-size: 11px;
+  padding: 4px 8px
+}
+
+.course-cat__header {
+  position: relative;
+  z-index: 1;
+  width:100%
+}
+
+.course-cat__header__content {
+  padding: 110px 0
+}
+
+@media only screen and (max-width: 540px) {
+  .course-cat__header__content {
+    padding: 40px 0
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .course-cat__header__content {
+    padding: 120px 0
+  }
+}
+
+.course-cat__header__bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: skew(0, -4deg);
+  -ms-transform: skew(0, -4deg);
+  transform: skew(0, -4deg);
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  overflow: hidden
+}
+
+.angular-1 .course-cat__header__bg {
+  background-color: #525967;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#525967), to(#312d43));
+  background-image: -webkit-linear-gradient(top left, #525967, #312d43);
+  background-image: linear-gradient(to bottom right, #525967, #312d43)
+}
+
+.angular-2 .course-cat__header__bg {
+  background-color: #e54562;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#e54562), to(#e33638));
+  background-image: -webkit-linear-gradient(top left, #e54562, #e33638);
+  background-image: linear-gradient(to bottom right, #e54562, #e33638)
+}
+
+.typescript .course-cat__header__bg {
+  background-color: #0092d8;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#0092d8), to(#034dbb));
+  background-image: -webkit-linear-gradient(top left, #0092d8, #034dbb);
+  background-image: linear-gradient(to bottom right, #0092d8, #034dbb)
+}
+
+.course-cat__subtitle {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  margin-top: 0;
+  color: #a6aab1
+}
+
+@media only screen and (max-width: 800px) {
+  .course-cat__subtitle {
+    font-size: 12px;
+    margin-bottom: 14px
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .course-cat__subtitle {
+    margin-bottom: 8px
+  }
+}
+
+.angular-1 .course-cat__subtitle {
+  color: #e0e8ff
+}
+
+.angular-2 .course-cat__subtitle {
+  color: #ffd2d2
+}
+
+.typescript .course-cat__subtitle {
+  color: #92c8ff
+}
+
+.rxjs .course-cat__subtitle {
+  color: #ffb4f1
+}
+
+.course-cat__title {
+  font-size: 44px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1;
+  color: white
+}
+
+@media only screen and (max-width: 800px) {
+  .course-cat__title {
+    font-size: 30px
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .course-cat__title {
+    font-size: 26px
+  }
+}
+
+.course-cat__description {
+  max-width: 40%;
+  font-size: 16px;
+  margin: 30px 0 0 0;
+  line-height: 1.5;
+  color: #676d77
+}
+
+@media only screen and (max-width: 940px) {
+  .course-cat__description {
+    max-width: 50%
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .course-cat__description {
+    font-size: 14px;
+    margin-top: 20px
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .course-cat__description {
+    max-width: 100%
+  }
+}
+
+.angular-1 .course-cat__description {
+  color: #d2d2dc
+}
+
+.angular-2 .course-cat__description {
+  color: #ffd2d1
+}
+
+.typescript .course-cat__description {
+  color: #b9d7ff
+}
+
+.course-cat__logo {
+  width: 500px;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transform: skew(0, 4deg);
+  -ms-transform: skew(0, 4deg);
+  transform: skew(0, 4deg);
+  opacity: 0.2;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: 0px
+}
+
+@media only screen and (max-width: 800px) {
+  .course-cat__logo {
+    margin-top: 0
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .course-cat__logo {
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+    top: -20px
+  }
+}
+
+.angular-1 .course-cat__logo {
+  /*background-image: url(/assets/img/icons/angular-1.png)*/
+  background-image: url(https://www.dropbox.com/s/i531a0tyghi466n/database.jpg?raw=1)
+}
+
+.svg .angular-1 .course-cat__logo {
+  background-image: url(https://www.dropbox.com/s/i531a0tyghi466n/database.jpg?raw=1)
+}
+
+.angular-2 .course-cat__logo {
+  background-image: url(https://www.dropbox.com/s/i531a0tyghi466n/database.jpg?raw=1)
+}
+
+.svg .angular-2 .course-cat__logo {
+  background-image: url(https://www.dropbox.com/s/i531a0tyghi466n/database.jpg?raw=1)
+}
+
+.typescript .course-cat__logo {
+  background-image: url(/assets/img/icons/typescript.png);
+  margin-top: -80px;
+  opacity: 0.1
+}
+
+.svg .typescript .course-cat__logo {
+  background-image: url(/assets/img/icons/typescript.svg)
+}
+
+.course-cat__content {
+  background-color: #373a3c;
+  position: relative;
+  z-index: 2
+}
+
+.course-cat__content>.wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  padding-top: 80px
+}
+
+@media only screen and (max-width: 1060px) {
+  .course-cat__content>.wrapper {
+    display: block
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .course-cat__content>.wrapper {
+    width: 100%;
+    padding: 0
+  }
+}
+
+.course-cat__courses {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0;
+  -ms-flex: 1 0;
+  flex: 1 0;
+  padding: 0 40px 40px 0;
+  margin-right: 40px;
+  border-right: 1px solid #f0f5fc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start
+}
+
+@media only screen and (max-width: 1060px) {
+  .course-cat__courses {
+    border-right: none;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .course-cat__courses {
+    padding: 40px 20px 0 20px
+  }
+}
+
+.course-cat__courses__header {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  max-width: 65%
+}
+
+.course-cat__courses__header:first-child {
+  margin-top: 0
+}
+
+@media only screen and (max-width: 540px) {
+  .course-cat__courses__header {
+    max-width: 100%;
+    margin-bottom: 20px
+  }
+}
+
+.course-cat__courses__single {
+  -webkit-box-flex: 50%;
+  -webkit-flex: 50% 1 0;
+  -ms-flex: 50% 1 0;
+  flex: 50% 1 0;
+  max-width: 50%;
+  margin-bottom: 40px
+}
+
+.course-cat__courses__single:nth-child(2n-1) {
+  padding-right: 20px
+}
+
+.course-cat__courses__single:nth-child(2n) {
+  /*padding-left: 20px*/
+  padding-right: 20px
+}
+
+@media only screen and (max-width: 660px) {
+  .course-cat__courses__single {
+    -webkit-box-flex: 100%;
+    -webkit-flex: 100% 1 0;
+    -ms-flex: 100% 1 0;
+    flex: 100% 1 0;
+    max-width: 100%;
+    margin-bottom: 20px
+  }
+  .course-cat__courses__single:nth-child(2n-1) {
+    padding-right: 0
+  }
+  .course-cat__courses__single:nth-child(2n) {
+    padding-left: 0
+  }
+}
+
+.course-cat__courses__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  width: 100%
+}
+
+.course-metadata {
+  -webkit-box-flex: 340px;
+  -webkit-flex: 340px 1 0;
+  -ms-flex: 340px 1 0;
+  flex: 340px 1 0;
+  max-width: 340px;
+  margin-top: -200px;
+  padding-bottom: 20px;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  position: relative;
+  z-index: 2
+}
+
+@media only screen and (min-width: 1400px) {
+  .course-metadata {
+    margin-top: -260px
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .course-metadata {
+    -webkit-box-flex: 320px;
+    -webkit-flex: 320px 1 0;
+    -ms-flex: 320px 1 0;
+    flex: 320px 1 0;
+    max-width: 320px
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .course-metadata {
+    -webkit-box-flex: 100%;
+    -webkit-flex: 100% 1 0;
+    -ms-flex: 100% 1 0;
+    flex: 100% 1 0;
+    max-width: none;
+    margin-top: 0
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .course-metadata {
+    margin-top: 25px
+  }
+}
+
+.course-metadata__card {
+  -webkit-box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  background-color: white;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  margin-bottom: 30px;
+  position: relative
+}
+
+@media only screen and (min-width: 880px) and (max-width: 1060px) {
+  .course-metadata__card {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+  }
+}
+
+.course-metadata__specs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px
+}
+
+.course-metadata__specs li {
+  color: #fff;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1)
+}
+
+.course-metadata__specs li:first-child {
+  border-top: 0
+}
+
+.course-metadata__specs li span {
+  font-weight: 600
+}
+
+.course-metadata__specs li img {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 55px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+  border: 3px solid rgba(255, 255, 255, 0.1)
+}
+
+.course-metadata__tabs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%
+}
+
+.course-metadata__tabs__single {
+  outline: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto 1 0;
+  -ms-flex: auto 1 0;
+  flex: auto 1 0;
+  text-align: center;
+  background: none;
+  border: none;
+  padding: 10px;
+  border-right: 1px solid #dde7f6;
+  border-bottom: 1px solid #dde7f6;
+  background-color: #f8fbff;
+  cursor: pointer
+}
+
+@media only screen and (min-width: 880px) and (max-width: 1060px) {
+  .course-metadata__tabs__single {
+    display: none
+  }
+}
+
+.course-metadata__tabs__single:last-child {
+  border-right: none
+}
+
+.course-metadata__tabs__single[data-bundle-state="active"] {
+  background-color: white;
+  border-bottom: 1px solid #FFFFFF;
+  cursor: default
+}
+
+.course-metadata__tabs__title {
+  display: block
+}
+
+[data-bundle-state="active"] .course-metadata__tabs__title {
+  color: #9f72e6
+}
+
+.angular-2 [data-bundle-state="active"] .course-metadata__tabs__title {
+  color: #e4435c
+}
+
+.typescript [data-bundle-state="active"] .course-metadata__tabs__title {
+  color: #5f8ed6
+}
+
+.rxjs [data-bundle-state="active"] .course-metadata__tabs__title {
+  color: #e656b5
+}
+
+.course-metadata__tabs__subtitle {
+  display: block;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #6a7589;
+  text-transform: uppercase
+}
+
+.course-metadata__single {
+  display: none;
+  opacity: 0
+}
+
+@media only screen and (min-width: 880px) and (max-width: 1060px) {
+  .course-metadata__single {
+    margin-right: 20px;
+    opacity: 1;
+    -webkit-box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+    box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+    background-color: white;
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 0;
+    -ms-flex: 1 1 0;
+    flex: 1 1 0
+  }
+  .course-metadata__single:last-child {
+    margin-right: 0
+  }
+}
+
+.course-metadata__single[data-bundle-content-state="active"] {
+  opacity: 1;
+  display: block
+}
+
+.course-metadata__header {
+  text-align: center;
+  padding: 24px 20px 20px;
+  position: relative;
+  overflow: hidden;
+  background-color: #9f72e6;
+  -webkit-box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  box-shadow: 0 3px 14px rgba(53, 60, 72, 0.27);
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  margin-bottom: 30px
+}
+
+.angular-2 .course-metadata__header {
+  background-color: #292d48
+}
+
+.typescript .course-metadata__header {
+  background-color: #5f8ed6
+}
+
+.course-metadata__logo {
+  display: block;
+  margin: 0 auto;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 14px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/assets/img/icons/flash.png)
+}
+
+.svg .course-metadata__logo {
+  background-image: url(/assets/img/icons/flash.svg)
+}
+
+.course-metadata__title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 24px;
+  color: white;
+  margin: 0 0 8px 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2)
+}
+
+.course-metadata__subtitle {
+  color: #e5e8fb;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1)
+}
+
+.course-metadata__sub-header {
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 1px solid #f0f5fc
+}
+
+.course-metadata__sub-header__title {
+  font-size: 22px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #9D5FC7;
+  margin: 0 0 5px 0
+}
+
+.angular-1 .course-metadata__sub-header__title {
+  color: #3a3f4f
+}
+
+.angular-2 .course-metadata__sub-header__title {
+  color: #e4435c
+}
+
+.typescript .course-metadata__sub-header__title {
+  color: #5f8ed6
+}
+
+.rxjs .course-metadata__sub-header__title {
+  color: #e656b5
+}
+
+.course-metadata__sub-header__subtitle {
+  color: #6a7589;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0
+}
+
+.course-metadata__list {
+  list-style: none;
+  margin: 0;
+  padding: 20px
+}
+
+.course-metadata__item {
+  list-style: none
+}
+
+.course-metadata__item .course-card--condensed:hover {
+  -webkit-box-shadow: 0 1px 2px rgba(53, 60, 72, 0.14);
+  box-shadow: 0 1px 2px rgba(53, 60, 72, 0.14)
+}
+
+.course-metadata__item:last-child .course-bundles__divider {
+  display: none
+}
+
+.course-metadata__divider {
+  text-align: center;
+  display: block;
+  margin: -5px 0 15px 0
+}
+
+.course-metadata__divider__plus {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: -11px;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-image: url(/assets/img/icons/plus.png)
+}
+
+.svg .course-metadata__divider__plus {
+  background-image: url(/assets/img/icons/plus.svg)
+}
+
+.course-metadata__link {
+  display: block;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer
+}
+
+.angular-1 .course-metadata__link:hover .course-bundles__info__text {
+  background-color: #9f72e6
+}
+
+.angular-2 .course-metadata__link:hover .course-bundles__info__text {
+  background-color: #292d48
+}
+
+.typescript .course-metadata__link:hover .course-bundles__info__text {
+  background-color: #4c73ae
+}
+
+.rxjs .course-metadata__link:hover .course-bundles__info__text {
+  background-color: #649de4
+}
+
+.course-metadata__team {
+  border-top: 1px solid #e9edf2
+}
+
+.course-metadata__team__title {
+  text-align: center;
+  padding: 16px 20px;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #6a7589;
+  display: none
+}
+
+.course-metadata__team__tabs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%
+}
+
+.course-metadata__team__tab {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px solid #e9edf2;
+  border-bottom: 1px solid #e9edf2;
+  background-color: #f8fbff;
+  cursor: pointer;
+  outline: 0
+}
+
+.course-metadata__team__tab--single img {
+  width: 10px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url(/assets/img/icons/bundle-single.png);
+  margin-bottom: 4px
+}
+
+.svg .course-metadata__team__tab--single img {
+  background-image: url(/assets/img/icons/bundle-single.svg)
+}
+
+.course-metadata__team__tab--team img {
+  width: 17px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url(/assets/img/icons/bundle-team.png);
+  margin-bottom: 4px
+}
+
+.svg .course-metadata__team__tab--team img {
+  background-image: url(/assets/img/icons/bundle-team.svg)
+}
+
+@media only screen and (min-width: 880px) and (max-width: 1060px) {
+  .course-metadata__team__tab {
+    display: none
+  }
+}
+
+.course-metadata__team__tab:last-child {
+  border-right: none
+}
+
+.course-metadata__team__tab[data-license-state="active"] {
+  background-color: white;
+  border-bottom: 1px solid #FFFFFF;
+  cursor: default
+}
+
+.course-metadata__team__tab__title {
+  display: block;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #6a7589;
+  text-transform: uppercase
+}
+
+.angular-2 [data-license-state="active"] .course-metadata__team__tab__title {
+  color: #e4435c
+}
+
+.typescript [data-license-state="active"] .course-metadata__team__tab__title {
+  color: #5f8ed6
+}
+
+.rxjs [data-license-state="active"] .course-metadata__team__tab__title {
+  color: #e656b5
+}
+
+.course-metadata__pricing {
+  text-align: center;
+  padding: 4px 14px
+}
+
+.course-metadata__pricing input {
+  display: none
+}
+
+.course-metadata__pricing__tab {
+  display: none
+}
+
+.course-metadata__pricing__tab[data-license-content-state="active"] {
+  opacity: 1;
+  display: block
+}
+
+.course-metadata__pricing__single {
+  padding: 24px 0
+}
+
+.course-metadata__pricing__title {
+  text-transform: uppercase;
+  color: #6a7589;
+  display: block;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+.course-metadata__pricing__full {
+  display: block;
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #3e434c;
+  font-style: italic;
+  display: inline-block
+}
+
+.course-metadata__pricing__cost {
+  display: block;
+  font-size: 36px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #9f72e6
+}
+
+.angular-2 .course-metadata__pricing__cost {
+  color: #e4435c
+}
+
+.typescript .course-metadata__pricing__cost {
+  color: #5f8ed6
+}
+
+.rxjs .course-metadata__pricing__cost {
+  color: #e656b5
+}
+
+.course-metadata__pricing__user-icon {
+  width: 14px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url(/assets/img/icons/bundle-team.png);
+  margin-right: 10px;
+  position: relative;
+  top: 3px
+}
+
+.svg .course-metadata__pricing__user-icon {
+  background-image: url(/assets/img/icons/bundle-team.svg)
+}
+
+.course-metadata__pricing__checkbox {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #dde7f6;
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+  background-color: transparent;
+  -webkit-transition: background-color .3s, border-color .3s;
+  transition: background-color .3s, border-color .3s
+}
+
+.course-metadata__pricing__checkbox img {
+  width: 10px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url(/assets/img/icons/bundle-tick.png);
+  top: 1px;
+  position: absolute;
+  left: 2px;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s
+}
+
+.svg .course-metadata__pricing__checkbox img {
+  background-image: url(/assets/img/icons/bundle-tick.svg)
+}
+
+.course-metadata__pricing__bigger {
+  padding: 10px 0
+}
+
+.course-metadata__pricing__bigger p {
+  font-size: 13px;
+  font-style: italic;
+  color: #3e434c
+}
+
+.course-metadata__pricing__bigger p a {
+  color: #9e72e6
+}
+
+.course-metadata__pricing__selector {
+  border-bottom: 1px solid #f0f5fc
+}
+
+.course-metadata__pricing__selector input {
+  display: none
+}
+
+.angular-1 .course-metadata__pricing__selector input:checked+label .course-bundles__pricing__checkbox {
+  background-color: #9e72e6;
+  border-color: #9e72e6
+}
+
+.angular-2 .course-metadata__pricing__selector input:checked+label .course-bundles__pricing__checkbox {
+  background-color: #e4435c;
+  border-color: #e4435c
+}
+
+.typescript .course-metadata__pricing__selector input:checked+label .course-bundles__pricing__checkbox {
+  background-color: #5f8ed6;
+  border-color: #5f8ed6
+}
+
+.rxjs .course-metadata__pricing__selector input:checked+label .course-bundles__pricing__checkbox {
+  background-color: #e656b5;
+  border-color: #e656b5
+}
+
+.course-metadata__pricing__selector input:checked+label .course-bundles__pricing__checkbox img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1)
+}
+
+.course-metadata__pricing__selector label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 14px 14px 14px 4px;
+  cursor: pointer
+}
+
+.course-metadata__pricing__selector:first-child {
+  padding-top: 0
+}
+
+.course-metadata__pricing__selector:last-child {
+  border-bottom: none;
+  padding-bottom: 0
+}
+
+.course-metadata__pricing__selector__team {
+  display: inline-block;
+  vertical-align: middle;
+  color: #3a414c;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+.course-metadata__pricing__selector__cost {
+  font-size: 18px
+}
+
+.angular-1 .course-metadata__pricing__selector__cost {
+  color: #9e72e6
+}
+
+.angular-2 .course-metadata__pricing__selector__cost {
+  color: #e4435c
+}
+
+.typescript .course-metadata__pricing__selector__cost {
+  color: #5f8ed6
+}
+
+.rxjs .course-metadata__pricing__selector__cost {
+  color: #e656b5
+}
+
+.course-metadata__volume {
+  text-align: center;
+  padding: 14px 20px 10px 20px;
+  border-top: 1px solid #f0f5fc;
+  background-color: #fbfdff
+}
+
+.course-metadata__volume__progress {
+  height: 6px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #dde7f6;
+  margin-bottom: 8px
+}
+
+.course-metadata__volume__value {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  height: 6px;
+  width: 50%;
+  background-color: #a97cea;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s
+}
+
+.angular-2 .course-metadata__volume__value {
+  background-color: #e4435c
+}
+
+.typescript .course-metadata__volume__value {
+  background-color: #5f8ed6
+}
+
+.rxjs .course-metadata__volume__value {
+  background-color: #e656b5
+}
+
+.course-metadata__volume__count {
+  text-transform: uppercase;
+  color: #6a7589;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+.course-metadata__info {
+  padding: 14px 20px;
+  border-top: 1px solid #f0f5fc;
+  background-color: #fbfdff
+}
+
+.course-metadata__info__text {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: white;
+  background-color: #9f72e6;
+  display: block;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 10px;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s
+}
+
+.angular-1 .course-metadata__info__text {
+  background-color: #3a3f4f
+}
+
+.angular-2 .course-metadata__info__text {
+  background-color: #e4435c
+}
+
+.typescript .course-metadata__info__text {
+  background-color: #5f8ed6
+}
+
+.rxjs .course-metadata__info__text {
+  background-color: #e656b5
+}
+
+.course-metadata__license-link {
+  display: block;
+  font-size: 13px;
+  font-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  color: #878f9e;
+  font-style: italic
+}
+
+.course-metadata__license-link a {
+  color: #9e72e6;
+  -webkit-transition: color .3s;
+  transition: color .3s
+}
+
+.course-metadata__license-link a:hover {
+  color: #3a4250
+}
+
+.faq-buckets {
+  margin-top: 160px
+}
+
+@media only screen and (max-width: 880px) {
+  .faq-buckets {
+    margin-top: 80px
+  }
+}
+
+.faq-buckets__col {
+  width: 33.33%;
+  margin-bottom: 60px
+}
+
+.faq-buckets__col:nth-child(3n-2) {
+  padding-right: 26px
+}
+
+.faq-buckets__col:nth-child(3n-1) {
+  padding-left: 14px;
+  padding-right: 14px
+}
+
+.faq-buckets__col:nth-child(3n) {
+  padding-left: 26px
+}
+
+@media only screen and (max-width: 960px) {
+  .faq-buckets__col {
+    -webkit-box-flex: 50%;
+    -webkit-flex: 50% 1 0;
+    -ms-flex: 50% 1 0;
+    flex: 50% 1 0;
+    max-width: 50%
+  }
+  .faq-buckets__col:nth-child(3n-2) {
+    padding: 0
+  }
+  .faq-buckets__col:nth-child(3n-1) {
+    padding: 0
+  }
+  .faq-buckets__col:nth-child(3n) {
+    padding: 0
+  }
+  .faq-buckets__col:nth-child(2n-1) {
+    padding-right: 20px
+  }
+  .faq-buckets__col:nth-child(2n) {
+    padding-left: 20px
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .faq-buckets__col {
+    margin-bottom: 20px
+  }
+  .faq-buckets__col:nth-child(2n-1) {
+    padding-right: 10px
+  }
+  .faq-buckets__col:nth-child(2n) {
+    padding-left: 10px
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .faq-buckets__col {
+    -webkit-box-flex: 100%;
+    -webkit-flex: 100% 1 0;
+    -ms-flex: 100% 1 0;
+    flex: 100% 1 0;
+    max-width: 100%;
+    margin-bottom: 40px
+  }
+  .faq-buckets__col:nth-child(2n-1) {
+    padding-right: 0
+  }
+  .faq-buckets__col:nth-child(2n) {
+    padding-left: 0
+  }
+  .faq-buckets__col:last-child {
+    margin-bottom: 0
+  }
+}
+
+.faq-buckets__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap
+}
+
+.faq-bucket__title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #545e6f;
+  margin-bottom: 22px
+}
+
+@media only screen and (max-width: 880px) {
+  .faq-bucket__title {
+    margin-bottom: 16px
+  }
+}
+
+.faq-bucket__question {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #9e5bc9;
+  margin-bottom: 8px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 0px 7px;
+  padding-left: 14px;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  background-image: url(/assets/img/icons/arrow-faq--right.png)
+}
+
+.svg .faq-bucket__question {
+  background-image: url(/assets/img/icons/arrow-faq--right.svg)
+}
+
+.faq-bucket__question:hover {
+  color: #545e6f
+}
+
+.faq-bucket__more {
+  margin-top: 26px;
+  display: block;
+  color: #545e6f;
+  font-size: 14px;
+  font-weight: 500;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  background-repeat: no-repeat;
+  background-position: 80px 8px;
+  background-image: url(/assets/img/icons/arrow-faq--down.png)
+}
+
+.svg .faq-bucket__more {
+  background-image: url(/assets/img/icons/arrow-faq--down.svg)
+}
+
+.faq-bucket__more:hover {
+  color: #9e5bc9
+}
+
+@media only screen and (max-width: 880px) {
+  .faq-bucket__more {
+    margin-top: 16px
+  }
+}
+
+.faq-bucket__icon {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  top: 4px;
+  margin-right: 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain
+}
+
+.faq-bucket__icon--accounts {
+  background-image: url(/assets/img/icons/faq--accounts.png)
+}
+
+.svg .faq-bucket__icon--accounts {
+  background-image: url(/assets/img/icons/faq--accounts.svg)
+}
+
+.faq-bucket__icon--licensing {
+  background-image: url(/assets/img/icons/faq--licensing.png)
+}
+
+.svg .faq-bucket__icon--licensing {
+  background-image: url(/assets/img/icons/faq--licensing.svg)
+}
+
+.faq-bucket__icon--teams {
+  background-image: url(/assets/img/icons/faq--teams.png)
+}
+
+.svg .faq-bucket__icon--teams {
+  background-image: url(/assets/img/icons/faq--teams.svg)
+}
+
+.faq-bucket__icon--courses {
+  background-image: url(/assets/img/icons/faq--courses.png)
+}
+
+.svg .faq-bucket__icon--courses {
+  background-image: url(/assets/img/icons/faq--courses.svg)
+}
+
+.faq-bucket__icon--miscellaneous {
+  background-image: url(/assets/img/icons/faq--misc.png)
+}
+
+.svg .faq-bucket__icon--miscellaneous {
+  background-image: url(/assets/img/icons/faq--misc.svg)
+}
+
+.faq-categories__foot {
+  text-align: center;
+  padding: 80px 0 120px 0;
+  font-size: 18px;
+  font-weight: 500
+}
+
+.faq-category {
+  border-top: 1px solid #e8ebf4;
+  padding: 50px 0
+}
+
+.faq-category:after {
+  clear: both;
+  display: table;
+  content: ""
+}
+
+.faq-category__title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 15px
+}
+
+.faq-category__info {
+  padding: 24px 30px;
+  font-size: 14px;
+  color: #6a7589;
+  line-height: 1.5;
+  border-top: 1px solid #e8ebf4;
+  background-color: #fafafc
+}
+
+.faq-category__question {
+  padding-top: 40px
+}
+
+.faq-category__question h3 {
+  color: #9e5bc9;
+  font-weight: 400;
+  font-size: 20px
+}
+
+@media only screen and (max-width: 880px) {
+  .faq-category__question h3 {
+    font-size: 18px
+  }
+}
+
+.faq-category__question p {
+  font-size: 16px;
+  line-height: 1.5
+}
+
+@media only screen and (max-width: 880px) {
+  .faq-category__question p {
+    font-size: 14px
+  }
+}
+
+.faq-category__question p a {
+  color: #9e5bc9;
+  -webkit-transition: color .3s;
+  transition: color .3s
+}
+
+.faq-category__question p a:hover {
+  color: #545e6f
+}
+
+@media only screen and (max-width: 880px) {
+  .faq-category__question:last-child {
+    margin-bottom: 0
+  }
+}
+
+.faq-category__icon {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  position: static;
+  position: relative;
+  top: 4px;
+  margin-right: 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain
+}
+
+.faq-category__icon--accounts {
+  background-image: url(/assets/img/icons/faq--accounts.png)
+}
+
+.svg .faq-category__icon--accounts {
+  background-image: url(/assets/img/icons/faq--accounts.svg)
+}
+
+.faq-category__icon--licensing {
+  background-image: url(/assets/img/icons/faq--licensing.png)
+}
+
+.svg .faq-category__icon--licensing {
+  background-image: url(/assets/img/icons/faq--licensing.svg)
+}
+
+.faq-category__icon--teams {
+  background-image: url(/assets/img/icons/faq--teams.png)
+}
+
+.svg .faq-category__icon--teams {
+  background-image: url(/assets/img/icons/faq--teams.svg)
+}
+
+.faq-category__icon--courses {
+  background-image: url(/assets/img/icons/faq--courses.png)
+}
+
+.svg .faq-category__icon--courses {
+  background-image: url(/assets/img/icons/faq--courses.svg)
+}
+
+.faq-category__icon--miscellaneous {
+  background-image: url(/assets/img/icons/faq--misc.png)
+}
+
+.svg .faq-category__icon--miscellaneous {
+  background-image: url(/assets/img/icons/faq--misc.svg)
+}

@@ -40,7 +40,7 @@ video{
  <div class="row">
   <div class="col-lg-12">
     <div class="video-block block">
-      <video src="http://player.vimeo.com/external/85569724.sd.mp4?s=43df5df0d733011263687d20a47557e4" autoplay muted loop ></video>
+      <video src="http://player.vimeo.com/external/85569724.sd.mp4?s=43df5df0d733011263687d20a47557e4" autoplay muted loop></video>
     </div>
   </div>
  </div>	
@@ -56,7 +56,7 @@ video{
       <div class="caption">
         <h3>GitHub</h3>
         <p>Within the MDH we use GitHub (along with GitKraken) to push and pull code to the repoistories.</p>
-        <p><a href="https://www.gitkraken.com/download" class="btn btn-primary" role="button" target="_blank">Roche Github</a></p>
+        <p><a href="https://www.gitkraken.com/download" class="btn btn-primary-outline" role="button" target="_blank">Roche Github</a></p>
       </div>
     </div>
   </div>
@@ -66,7 +66,7 @@ video{
       <div class="caption">
         <h3>Training</h3>
         <p>About Teradata, SQL or the data sources, all training found here</p>
-        <p><a href="#" class="btn btn-primary-outline" role="button">>>visit</a></p>
+        <p><a href="#" class="btn btn-primary-outline" role="button">visit</a></p>
       </div>
     </div>
   </div>
@@ -75,8 +75,8 @@ video{
       <i class="fa fa-fw fa-5x fa-database"></i>
       <div class="caption">
         <h3>Data Sources</h3>
-        <p>Real World Data Sources available on Teradata</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+        <p>Real World Data Sources available on Teradata<br> </p>
+        <p><a href="#" class="btn btn-primary-outline" role="button">Data</a></p>
       </div>
     </div>
 	</div>
@@ -200,22 +200,12 @@ video{
     <alert *ngFor="let alert of alerts; let i = index" [type]="alert.type" dismissible="true" (close)="closeAlert(i)">
         {{ alert?.msg }}
     </alert>
- <div class="row">    
-    <div class="col-xl-6">
-	  <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
-    <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-    <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">
-    <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4">
-    </video>
-    </div>	    
-	<div class=".col-xl-6">
-	<video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
-  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-<source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">
-<source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4">
-</video>
-    </div>	
-</div>    
+
+    <div class="row">        
+	  <div class="col-xl-10">
+	    <video class="video video-block" src="http://player.vimeo.com/external/85569724.sd.mp4?s=43df5df0d733011263687d20a47557e4" autoplay muted loop></video>
+      </div>	
+    </div>    
     <div class="row">
         <div class="col-lg-8">
         <div class="card card-default">
