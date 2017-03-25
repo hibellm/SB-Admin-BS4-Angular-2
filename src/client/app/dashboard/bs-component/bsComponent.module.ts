@@ -16,7 +16,6 @@ import {
 		TypeaheadModule
 	} from 'ng2-bootstrap/ng2-bootstrap';
 
-
 import { BSComponentComponent } from './bsComponent.component';
 
 @NgModule({

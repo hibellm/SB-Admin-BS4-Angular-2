@@ -3,19 +3,17 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { DropdownModule } from 'ng2-bootstrap/ng2-bootstrap';
 import { ModalModule } from 'ng2-bootstrap/ng2-bootstrap';
-
 import { HomeModule } from './home/home.module';
 import { ChartModule } from './charts/chart.module';
 import { BlankPageModule } from './blank-page/blankPage.module';
 import { TeradataModule } from './teradata/teradata.module';
+import { landingModule } from './landing/landing.module';
 import { TableModule } from './tables/table.module';
 import { FormModule } from './forms/forms.module';
 import { GridModule } from './grid/grid.module';
 import { BSComponentModule } from './bs-component/bsComponent.module';
 import { BSElementModule } from './bs-element/bsElement.module';
-
 import { DashboardComponent } from './dashboard.component';
-
 import {TopNavComponent} from '../shared/index';
 import {SidebarComponent} from '../shared/index';
 
@@ -34,7 +32,8 @@ import {SidebarComponent} from '../shared/index';
         BSComponentModule,
         BSElementModule,
         BlankPageModule,
-        TeradataModule
+        TeradataModule,
+        landingModule
     ],
     declarations: [DashboardComponent, TopNavComponent, SidebarComponent],
     exports: [DashboardComponent, TopNavComponent, SidebarComponent]
