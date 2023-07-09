@@ -29,6 +29,7 @@ typings
 .lock-wscript
 .tsdrc
 .typingsrc
+client_secrets.json
 
 #IDE configuration files
 .idea
